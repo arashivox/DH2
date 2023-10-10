@@ -2327,7 +2327,8 @@ export const Formats: FormatList = [
 			`&bullet; <a href="https://docs.google.com/spreadsheets/d/1wK11cPHnPCmH7JFss6leKW6_-cumn3DuZA-YMzrzF-U/edit?usp=sharing">Spreadsheet</a>`,
 		],
 		mod: 'gen6AXdoubles',
-		ruleset: ['standarddoubles', 'Swagger Clause', 'Mega Data Mod'],
+		gameType: 'doubles',
+		ruleset: ['Standard Doubles', 'Swagger Clause', 'Mega Data Mod'],
 		onValidateTeam(team) {
 			const itemTable = new Set<ID>();
 			for (const set of team) {
