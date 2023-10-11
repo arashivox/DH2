@@ -45468,7 +45468,7 @@ export const Learnsets: {[k: string]: LearnsetData} = {
 			{generation: 7, level: 15, moves: ["swift", "wish", "healingwish", "rest"], pokeball: "cherishball"},
 			{generation: 8, level: 70, nature: "Timid", moves: ["meteormash", "psychic", "rest", "wish"], pokeball: "cherishball"},
 		],
-		eventOnly: true,
+		eventOnly: false,
 	},
 	deoxys: {
 		learnset: {

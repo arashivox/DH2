@@ -3271,6 +3271,13 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "AX",
 		doublesTier: "DAX",
 	},
+	darmanitanzen: {
+		randomBattleMoves: ["uturn", "flareblitz", "rockslide", "earthquake", "superpower"],
+		randomDoubleBattleMoves: ["uturn", "flareblitz", "firepunch", "rockslide", "earthquake", "superpower", "protect"],
+		tier: "AX",
+		doublesTier: "DAX",
+	},
+
 	maractus: {
 		randomBattleMoves: ["spikes", "gigadrain", "leechseed", "hiddenpowerfire", "toxic", "suckerpunch", "spikyshield"],
 		randomDoubleBattleMoves: ["grassyterrain", "gigadrain", "leechseed", "hiddenpowerfire", "helpinghand", "suckerpunch", "spikyshield"],

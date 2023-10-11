@@ -686,7 +686,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 9] Return to Orre: Tercera",
-	   desc: [
+	    desc: [
 			"This is a micrometa that only uses Pokemon obtainable in Colosseum and XD.",
 		],
 		threads: [
@@ -2338,6 +2338,7 @@ export const Formats: FormatList = [
 		mod: 'gen6axdoubles',
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', 'Swagger Clause', 'Mega Data Mod', 'Max Level = 50'],
+		banlist: ['Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star', 'Vivillon-Fancy', 'Vivillon-Pokeball'],
 		onValidateTeam(team) {
 			const itemTable = new Set<ID>();
 			for (const set of team) {
@@ -2395,6 +2396,7 @@ export const Formats: FormatList = [
 		name: "[Gen 6] AX Singles",
 		mod: 'gen6axsingles',
 		ruleset: ['Standard', 'Swagger Clause', 'Mega Data Mod', 'Max Level = 50'],
+		banlist: ['Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star', 'Vivillon-Fancy', 'Vivillon-Pokeball'],
 		onValidateTeam(team) {
 			const itemTable = new Set<ID>();
 			for (const set of team) {
