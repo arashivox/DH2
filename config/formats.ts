@@ -2687,7 +2687,6 @@ export const Formats: FormatList = [
 // 					return [set.nature + ' is not a valid nature in TPDP. Hint: to set Red, Blue, Black, White, or Green nature, use the Import/Export button.'];
 // 				}
 // 			}
-// 		},
-// 	},
-// ];
-
+// 		}
+// 	}
+];
