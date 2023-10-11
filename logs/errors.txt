@@ -3374,3 +3374,39 @@ Error [ERR_IPC_DISCONNECTED]: IPC channel is already disconnected
     at ChildProcess.emit (node:domain:488:12)
     at finish (node:internal/child_process:935:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:345:11)
+    at Server.finish (C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:117:19)
+    at C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:94:18
+    at C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:337:13
+    at streamFile (C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:382:13)
+    at ReadStream.<anonymous> (C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:375:17)
+    at ReadStream.emit (node:events:514:28)
+    at ReadStream.emit (node:domain:488:12)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:345:11)
+    at Server.finish (C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:117:19)
+    at C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:94:18
+    at C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:337:13
+    at streamFile (C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:382:13)
+    at ReadStream.<anonymous> (C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:375:17)
+    at ReadStream.emit (node:events:514:28)
+    at ReadStream.emit (node:domain:488:12)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot write headers after they are sent to the client
+    at new NodeError (node:internal/errors:406:5)
+    at ServerResponse.writeHead (node:_http_server:345:11)
+    at Server.finish (C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:117:19)
+    at C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:94:18
+    at C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:337:13
+    at streamFile (C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:382:13)
+    at ReadStream.<anonymous> (C:\GitHub\DH2\node_modules\node-static\lib\node-static.js:375:17)
+    at ReadStream.emit (node:events:514:28)
+    at ReadStream.emit (node:domain:488:12)
+    at emitCloseNT (node:internal/streams/destroy:132:10)
