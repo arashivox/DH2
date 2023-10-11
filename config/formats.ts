@@ -2337,7 +2337,7 @@ export const Formats: FormatList = [
 		name: "[Gen 6] AX Doubles",
 		mod: 'gen6axdoubles',
 		gameType: 'doubles',
-		ruleset: ['Standard Doubles', 'Swagger Clause', 'Max Level = 50'],
+		ruleset: ['Standard Doubles', 'Swagger Clause', 'Mega Data Mod', 'Max Level = 50'],
 		onValidateTeam(team) {
 			const itemTable = new Set<ID>();
 			for (const set of team) {
@@ -2393,7 +2393,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 6] AX Singles",
-		mod: 'gen6AXsingles',
+		mod: 'gen6axsingles',
 		ruleset: ['Standard', 'Swagger Clause', 'Mega Data Mod', 'Max Level = 50'],
 		onValidateTeam(team) {
 			const itemTable = new Set<ID>();
