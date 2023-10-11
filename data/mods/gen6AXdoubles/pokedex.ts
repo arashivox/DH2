@@ -1707,7 +1707,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoCondition: "during the day",
 		evos: ["Blissey"],
 		eggGroups: ["Fairy"],
-		canHatch: True,
+		canHatch: true,
 	},
 	tangela: {
 		num: 114,
@@ -1842,7 +1842,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelMove",
 		evoMove: "Mimic",
 		eggGroups: ["Human-Like"],
-		canHatch: True,
+		canHatch: true,
 		otherFormes: ["Mr. Mime-Galar"],
 		formeOrder: ["Mr. Mime", "Mr. Mime-Galar"],
 	},
@@ -2178,7 +2178,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Munchlax",
 		evoType: "levelFriendship",
 		eggGroups: ["Monster"],
-		canHatch: True,
+		canHatch: true,
 		canGigantamax: "G-Max Replenish",
 	},
 	articuno: {
@@ -2600,7 +2600,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		evos: ["Pikachu"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 		otherFormes: ["Pichu-Spiky-eared"],
 		formeOrder: ["Pichu", "Pichu-Spiky-eared"],
 	},
@@ -2616,7 +2616,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		evos: ["Clefairy"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	igglybuff: {
 		num: 174,
@@ -2630,7 +2630,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		evos: ["Jigglypuff"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	togepi: {
 		num: 175,
@@ -2644,7 +2644,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		evos: ["Togetic"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	togetic: {
 		num: 176,
@@ -2768,7 +2768,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelFriendship",
 		evos: ["Azumarill"],
 		eggGroups: ["Water 1", "Fairy"],
-		canHatch: True,
+		canHatch: true,
 	},
 	azumarill: {
 		num: 184,
@@ -2796,7 +2796,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelMove",
 		evoMove: "Mimic",
 		eggGroups: ["Mineral"],
-		canHatch: True,
+		canHatch: true,
 	},
 	politoed: {
 		num: 186,
@@ -3025,7 +3025,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Wynaut",
 		evoLevel: 15,
 		eggGroups: ["Amorphous"],
-		canHatch: True,
+		canHatch: true,
 	},
 	girafarig: {
 		num: 203,
@@ -3380,7 +3380,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelExtra",
 		evoCondition: "with a Remoraid in party",
 		eggGroups: ["Water 1"],
-		canHatch: True,
+		canHatch: true,
 	},
 	skarmory: {
 		num: 227,
@@ -3524,7 +3524,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		evos: ["Hitmonlee", "Hitmonchan", "Hitmontop"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	hitmontop: {
 		num: 237,
@@ -3553,7 +3553,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		evos: ["Jynx"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	elekid: {
 		num: 239,
@@ -3567,7 +3567,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		evos: ["Electabuzz"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	magby: {
 		num: 240,
@@ -3581,7 +3581,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		evos: ["Magmar"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	miltank: {
 		num: 241,
@@ -4431,7 +4431,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		evos: ["Marill"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	nosepass: {
 		num: 299,
@@ -4724,7 +4724,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoCondition: "during the day",
 		evos: ["Roserade"],
 		eggGroups: ["Fairy", "Grass"],
-		canHatch: True,
+		canHatch: true,
 	},
 	gulpin: {
 		num: 316,
@@ -5373,7 +5373,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelFriendship",
 		evoCondition: "at night",
 		eggGroups: ["Amorphous"],
-		canHatch: True,
+		canHatch: true,
 	},
 	absol: {
 		num: 359,
@@ -5413,7 +5413,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		evos: ["Wobbuffet"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	snorunt: {
 		num: 361,
@@ -6171,7 +6171,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		evos: ["Roselia"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	roserade: {
 		num: 407,
@@ -6602,7 +6602,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		evos: ["Chimecho"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	stunky: {
 		num: 434,
@@ -6667,7 +6667,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		evos: ["Sudowoodo"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	mimejr: {
 		num: 439,
@@ -6680,7 +6680,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		evos: ["Mr. Mime", "Mr. Mime-Galar"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	happiny: {
 		num: 440,
@@ -6694,7 +6694,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		evos: ["Chansey"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	chatot: {
 		num: 441,
@@ -6785,7 +6785,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		evos: ["Snorlax"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	riolu: {
 		num: 447,
@@ -6799,7 +6799,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		evos: ["Lucario"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	lucario: {
 		num: 448,
@@ -6955,7 +6955,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		evos: ["Mantine"],
 		eggGroups: ["Undiscovered"],
-		canHatch: True,
+		canHatch: true,
 	},
 	snover: {
 		num: 459,
