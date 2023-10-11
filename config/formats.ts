@@ -2335,7 +2335,7 @@ export const Formats: FormatList = [
 	},
 	{
 		name: "[Gen 6] AX Doubles",
-		mod: 'gen6AXdoubles',
+		mod: 'gen6axdoubles',
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', 'Swagger Clause', 'Max Level = 50'],
 		onValidateTeam(team) {
