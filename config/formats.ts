@@ -2338,7 +2338,25 @@ export const Formats: FormatList = [
 		mod: 'gen6axdoubles',
 		gameType: 'doubles',
 		ruleset: ['Standard Doubles', 'Swagger Clause', 'Mega Data Mod', 'Max Level = 50'],
-		banlist: ['Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star', 'Vivillon-Fancy', 'Vivillon-Pokeball'],
+		banlist: [
+			//Pokemon//
+			'Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star', 'Vivillon-Fancy', 'Vivillon-Pokeball',
+			//Items//
+			'Big Nugget', 'Damp Rock', 'Full Incense', 'Grepa Berry', 'Heat Rock', 'Kelpsy Berry', 'Lax Incense', 'Leppa Berry', 'Odd Incense', 'Razor Claw', 
+			'Razor Fang', 'Rock Incense', 'Rose Incense', 'Sea Incense', 'Wave Incense',
+			//Pokemon-specific items//
+			'Adamant Orb', 'Blue Orb', 'Burn Drive', 'Chill Drive', 'Douse Drive', 'Griseous Orb', 'Lucky Punch', 'Lustrous Orb', 'Metal Powder', 'Quick Powder',
+			'Red Orb', 'Shock Drive', 'Stick', 'Thick Club',
+			//usually-useless-items//
+			'Destiny Knot', 'Figy Berry', 'Macho Brace', 'Power Anklet', 'Power Band', 'Power Belt', 'Power Bracer', 'Power Lens', 'Power Weight', 'Ring Target',
+			//useless-items//
+			'Armor Fossil', 'Belue Berry', 'Claw Fossil', 'Cornn Berry', 'Cover Fossil', 'Dawn Stone', 'Dive Ball', 'Dome Fossil', 'Dragon Scale', 'Dubious Disc',
+			'Durin Berry', 'Dusk Ball', 'Dusk Stone', 'Electirizer', 'Fire Stone', 'Friend Ball', 'Great Ball', 'Heal Ball', 'Helix Fossil', 'Hondew Berry',
+			'Jaw Fossil', 'Leaf Stone', 'Luxury Ball', 'Magmarizer', 'Magost Berry', 'Master Ball', 'Moon Stone', 'Nanab Berry', 'Nest Ball', 'Net Ball', 'Nomel Berry',
+			'Old Amber', 'Oval Stone', 'Pamtre Berry', 'Plume Fossil', 'Poke Ball', 'Pomeg Berry', 'Premier Ball', 'Prism Scale', 'Protector', 'Qualot Berry', 'Quick Ball',
+			'Rabuta Berry', 'Rare Bone', 'Razz Berry', 'Reaper Cloth', 'Repeat Ball', 'Root Fossil', 'Sachet', 'Sail Fossil', 'Shiny Stone', 'Skull Fossil', 'Spelon Berry',
+			'Sun Stone', 'Tamato Berry', 'Thunder Stone', 'Timer Ball', 'Ultra Ball', 'Up-Grade', 'Water Stone', 'Watmel Berry', 'Wepear Berry', 'Whipped Dream'
+		],
 		onValidateTeam(team) {
 			const itemTable = new Set<ID>();
 			for (const set of team) {
@@ -2396,7 +2414,25 @@ export const Formats: FormatList = [
 		name: "[Gen 6] AX Singles",
 		mod: 'gen6axsingles',
 		ruleset: ['Standard', 'Swagger Clause', 'Mega Data Mod', 'Max Level = 50'],
-		banlist: ['Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star', 'Vivillon-Fancy', 'Vivillon-Pokeball'],
+		banlist: [
+			//Pokemon//
+			'Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star', 'Vivillon-Fancy', 'Vivillon-Pokeball',
+			//Items//
+			'Big Nugget', 'Damp Rock', 'Full Incense', 'Grepa Berry', 'Heat Rock', 'Kelpsy Berry', 'Lax Incense', 'Leppa Berry', 'Odd Incense', 'Razor Claw', 
+			'Razor Fang', 'Rock Incense', 'Rose Incense', 'Sea Incense', 'Wave Incense',
+			//Pokemon-specific items//
+			'Adamant Orb', 'Blue Orb', 'Burn Drive', 'Chill Drive', 'Douse Drive', 'Griseous Orb', 'Lucky Punch', 'Lustrous Orb', 'Metal Powder', 'Quick Powder',
+			'Red Orb', 'Shock Drive', 'Stick', 'Thick Club',
+			//usually-useless-items//
+			'Destiny Knot', 'Figy Berry', 'Macho Brace', 'Power Anklet', 'Power Band', 'Power Belt', 'Power Bracer', 'Power Lens', 'Power Weight', 'Ring Target',
+			//useless-items//
+			'Armor Fossil', 'Belue Berry', 'Claw Fossil', 'Cornn Berry', 'Cover Fossil', 'Dawn Stone', 'Dive Ball', 'Dome Fossil', 'Dragon Scale', 'Dubious Disc',
+			'Durin Berry', 'Dusk Ball', 'Dusk Stone', 'Electirizer', 'Fire Stone', 'Friend Ball', 'Great Ball', 'Heal Ball', 'Helix Fossil', 'Hondew Berry',
+			'Jaw Fossil', 'Leaf Stone', 'Luxury Ball', 'Magmarizer', 'Magost Berry', 'Master Ball', 'Moon Stone', 'Nanab Berry', 'Nest Ball', 'Net Ball', 'Nomel Berry',
+			'Old Amber', 'Oval Stone', 'Pamtre Berry', 'Plume Fossil', 'Poke Ball', 'Pomeg Berry', 'Premier Ball', 'Prism Scale', 'Protector', 'Qualot Berry', 'Quick Ball',
+			'Rabuta Berry', 'Rare Bone', 'Razz Berry', 'Reaper Cloth', 'Repeat Ball', 'Root Fossil', 'Sachet', 'Sail Fossil', 'Shiny Stone', 'Skull Fossil', 'Spelon Berry',
+			'Sun Stone', 'Tamato Berry', 'Thunder Stone', 'Timer Ball', 'Ultra Ball', 'Up-Grade', 'Water Stone', 'Watmel Berry', 'Wepear Berry', 'Whipped Dream'
+		],
 		onValidateTeam(team) {
 			const itemTable = new Set<ID>();
 			for (const set of team) {
