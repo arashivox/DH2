@@ -2337,7 +2337,7 @@ export const Formats: FormatList = [
 		name: "[Gen 6] AX Doubles",
 		mod: 'gen6axdoubles',
 		gameType: 'doubles',
-		ruleset: ['Standard Doubles', 'Swagger Clause', 'Mega Data Mod', 'Max Level = 50'],
+		ruleset: ['Standard Doubles', 'Swagger Clause', 'Mega Data Mod'],
 		banlist: [
 			//Pokemon//
 			'Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star', 'Vivillon-Fancy', 'Vivillon-Pokeball',
@@ -2357,6 +2357,7 @@ export const Formats: FormatList = [
 			'Rabuta Berry', 'Rare Bone', 'Razz Berry', 'Reaper Cloth', 'Repeat Ball', 'Root Fossil', 'Sachet', 'Sail Fossil', 'Shiny Stone', 'Skull Fossil', 'Spelon Berry',
 			'Sun Stone', 'Tamato Berry', 'Thunder Stone', 'Timer Ball', 'Ultra Ball', 'Up-Grade', 'Water Stone', 'Watmel Berry', 'Wepear Berry', 'Whipped Dream'
 		],
+		unbanlist: ['Double Team'],
 		onValidateTeam(team) {
 			const itemTable = new Set<ID>();
 			for (const set of team) {
@@ -2413,7 +2414,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 6] AX Singles",
 		mod: 'gen6axsingles',
-		ruleset: ['Standard', 'Swagger Clause', 'Mega Data Mod', 'Max Level = 50'],
+		ruleset: ['Standard', 'Swagger Clause', 'Mega Data Mod'],
 		banlist: [
 			//Pokemon//
 			'Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star', 'Vivillon-Fancy', 'Vivillon-Pokeball',
@@ -2433,6 +2434,7 @@ export const Formats: FormatList = [
 			'Rabuta Berry', 'Rare Bone', 'Razz Berry', 'Reaper Cloth', 'Repeat Ball', 'Root Fossil', 'Sachet', 'Sail Fossil', 'Shiny Stone', 'Skull Fossil', 'Spelon Berry',
 			'Sun Stone', 'Tamato Berry', 'Thunder Stone', 'Timer Ball', 'Ultra Ball', 'Up-Grade', 'Water Stone', 'Watmel Berry', 'Wepear Berry', 'Whipped Dream'
 		],
+		unbanlist: ['Double Team'],
 		onValidateTeam(team) {
 			const itemTable = new Set<ID>();
 			for (const set of team) {
