@@ -2342,7 +2342,7 @@ export const Formats: FormatList = [
 			//Pokemon//
 			'Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star', 'Vivillon-Fancy', 'Vivillon-Pokeball',
 			//Items//
-			'Big Nugget', 'Damp Rock', 'Full Incense', 'Grepa Berry', 'Heat Rock', 'Kelpsy Berry', 'Lax Incense', 'Leppa Berry', 'Odd Incense', 'Razor Claw', 
+			'Big Nugget', 'Damp Rock', 'Full Incense', 'Grepa Berry', 'Heat Rock', 'Kelpsy Berry', 'Leppa Berry', 'Odd Incense', 'Razor Claw', 
 			'Razor Fang', 'Rock Incense', 'Rose Incense', 'Sea Incense', 'Wave Incense',
 			//Pokemon-specific items//
 			'Adamant Orb', 'Blue Orb', 'Burn Drive', 'Chill Drive', 'Douse Drive', 'Griseous Orb', 'Lucky Punch', 'Lustrous Orb', 'Metal Powder', 'Quick Powder',
@@ -2419,7 +2419,7 @@ export const Formats: FormatList = [
 			//Pokemon//
 			'Pikachu-Belle', 'Pikachu-Cosplay', 'Pikachu-Libre', 'Pikachu-PhD', 'Pikachu-Pop-Star', 'Pikachu-Rock-Star', 'Vivillon-Fancy', 'Vivillon-Pokeball',
 			//Items//
-			'Big Nugget', 'Damp Rock', 'Full Incense', 'Grepa Berry', 'Heat Rock', 'Kelpsy Berry', 'Lax Incense', 'Leppa Berry', 'Odd Incense', 'Razor Claw', 
+			'Big Nugget', 'Damp Rock', 'Full Incense', 'Grepa Berry', 'Heat Rock', 'Kelpsy Berry', 'Leppa Berry', 'Odd Incense', 'Razor Claw', 
 			'Razor Fang', 'Rock Incense', 'Rose Incense', 'Sea Incense', 'Wave Incense',
 			//Pokemon-specific items//
 			'Adamant Orb', 'Blue Orb', 'Burn Drive', 'Chill Drive', 'Douse Drive', 'Griseous Orb', 'Lucky Punch', 'Lustrous Orb', 'Metal Powder', 'Quick Powder',
