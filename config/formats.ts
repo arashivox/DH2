@@ -2344,9 +2344,9 @@ export const Formats: FormatList = [
 			//Items//
 			'Big Nugget', 'Damp Rock', 'Full Incense', 'Grepa Berry', 'Heat Rock', 'Kelpsy Berry', 'Leppa Berry', 'Odd Incense', 'Razor Claw', 
 			'Razor Fang', 'Rock Incense', 'Rose Incense', 'Sea Incense', 'Wave Incense',
-			//Pokemon-specific items//
-			'Adamant Orb', 'Blue Orb', 'Burn Drive', 'Chill Drive', 'Douse Drive', 'Griseous Orb', 'Lucky Punch', 'Lustrous Orb', 'Metal Powder', 'Quick Powder',
-			'Red Orb', 'Shock Drive', 'Stick', 'Thick Club',
+			//Pokemon-specific items/
+			'Adamant Orb', 'Blue Orb', 'Griseous Orb', 'Lucky Punch', 'Lustrous Orb', 'Metal Powder', 'Quick Powder',
+			'Red Orb', 'Stick', 'Thick Club',
 			//usually-useless-items//
 			'Destiny Knot', 'Figy Berry', 'Macho Brace', 'Power Anklet', 'Power Band', 'Power Belt', 'Power Bracer', 'Power Lens', 'Power Weight', 'Ring Target',
 			//useless-items//
@@ -2421,9 +2421,9 @@ export const Formats: FormatList = [
 			//Items//
 			'Big Nugget', 'Damp Rock', 'Full Incense', 'Grepa Berry', 'Heat Rock', 'Kelpsy Berry', 'Leppa Berry', 'Odd Incense', 'Razor Claw', 
 			'Razor Fang', 'Rock Incense', 'Rose Incense', 'Sea Incense', 'Wave Incense',
-			//Pokemon-specific items//
-			'Adamant Orb', 'Blue Orb', 'Burn Drive', 'Chill Drive', 'Douse Drive', 'Griseous Orb', 'Lucky Punch', 'Lustrous Orb', 'Metal Powder', 'Quick Powder',
-			'Red Orb', 'Shock Drive', 'Stick', 'Thick Club',
+			//Pokemon-specific items/
+			'Adamant Orb', 'Blue Orb', 'Griseous Orb', 'Lucky Punch', 'Lustrous Orb', 'Metal Powder', 'Quick Powder',
+			'Red Orb', 'Stick', 'Thick Club',
 			//usually-useless-items//
 			'Destiny Knot', 'Figy Berry', 'Macho Brace', 'Power Anklet', 'Power Band', 'Power Belt', 'Power Bracer', 'Power Lens', 'Power Weight', 'Ring Target',
 			//useless-items//
