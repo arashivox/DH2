@@ -11733,6 +11733,23 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	smeargle: {
 		learnset: {
 			sketch: ["6L91"],
+			scorchingswarm: ["6L1"],
+			fatesflourish: ["6L1"],
+			groundpound: ["6L1"],
+			tussle: ["6L1"],
+			breakingswipe: ["6L1"],
+			spiritbreak: ["6L1"],
+			dualwingbeat: ["6L1"],
+			trailblaze: ["6L1"],
+			tropkick: ["6L1"],
+			headlongrush: ["6L1"],
+			icehammer: ["6L1"],
+			esperwing: ["6L1"],
+			accelerock: ["6L1"],
+			steelbeam: ["6L1"],
+			aquastep: ["6L1"],
+			chillingwater: ["6L1"],
+			wavecrash: ["6L1"],
 		},
 	},
 	tyrogue: {
