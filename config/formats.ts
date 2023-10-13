@@ -2436,7 +2436,7 @@ export const Formats: FormatList = [
 			'Rabuta Berry', 'Rare Bone', 'Razz Berry', 'Reaper Cloth', 'Repeat Ball', 'Root Fossil', 'Sachet', 'Sail Fossil', 'Shiny Stone', 'Skull Fossil', 'Spelon Berry',
 			'Sun Stone', 'Tamato Berry', 'Thunder Stone', 'Timer Ball', 'Ultra Ball', 'Up-Grade', 'Water Stone', 'Watmel Berry', 'Wepear Berry', 'Whipped Dream'
 		],
-		unbanlist: ['Evasion Moves Clause', 'Moody'],
+		unbanlist: ['Moody'],
 		onValidateTeam(team) {
 			const itemTable = new Set<ID>();
 			for (const set of team) {
