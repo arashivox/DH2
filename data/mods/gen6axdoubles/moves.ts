@@ -142,6 +142,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	dualwingbeat: {
+		inherit: true,
 		num: 814,
 		accuracy: 100,
 		basePower: 40,
