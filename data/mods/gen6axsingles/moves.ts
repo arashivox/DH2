@@ -9,6 +9,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		desc: "20% Chance to burn the target.",
 		pp: 5,
 		priority: 0,
+		noSketch: false,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
 			chance: 20,
@@ -32,6 +33,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		desc: "20% Chance to make the target flinch.",
 		pp: 10,
 		priority: 0,
+		noSketch: false,
 		flags: {protect: 1, mirror: 1, nonsky: 1},
 		secondary: {
 			chance: 20,
@@ -56,6 +58,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		desc: "10% Chance to paralyze the target.",
 		pp: 20,
 		priority: 0,
+		noSketch: false,
 		flags: {contact: 1, protect: 1, mirror: 1 },
 		secondary: {
 			chance: 10,
@@ -80,6 +83,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		desc: "Crit Stage increased by 1.",
 		pp: 5,
 		priority: 0,
+		noSketch: false,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		critRatio: 1,
 		secondary: null,
