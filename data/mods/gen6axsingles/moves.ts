@@ -93,6 +93,273 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 
 	},
+	breakingswipe: {
+		num: 784,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		name: "Breaking Swipe",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				atk: -1,
+			},
+		},
+		target: "allAdjacentFoes",
+		type: "Dragon",
+		gen: 6,
+	},
+	spiritbreak: {
+		num: 789,
+		accuracy: 100,
+		basePower: 75,
+		category: "Physical",
+		name: "Spirit Break",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				spa: -1,
+			},
+		},
+		target: "normal",
+		type: "Fairy",
+		gen: 6,
+	},
+	dualwingbeat: {
+		num: 814,
+		accuracy: 100,
+		basePower: 40,
+		category: "Physical",
+		name: "Dual Wingbeat",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		multihit: 2,
+		secondary: null,
+		target: "normal",
+		type: "Flying",
+		maxMove: {basePower: 130},
+		gen: 6,
+	},
+	trailblaze: {
+		num: 885,
+		accuracy: 100,
+		basePower: 50,
+		category: "Physical",
+		name: "Trailblaze",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					spe: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Grass",
+		contestType: "Cool",
+		gen: 6,
+	},
+	tropkick: {
+		num: 688,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Trop Kick",
+		pp: 15,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				atk: -1,
+			},
+		},
+		target: "normal",
+		type: "Grass",
+		contestType: "Cute",
+		gen: 6,
+	},
+	headlongrush: {
+		num: 838,
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: "Headlong Rush",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
+		self: {
+			boosts: {
+				atk: -1,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Ground",
+		gen: 6,
+	},
+	icehammer: {
+		num: 665,
+		accuracy: 100,
+		basePower: 110,
+		category: "Physical",
+		name: "Ice Hammer",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
+		self: {
+			boosts: {
+				spe: -1,
+			},
+		},
+		secondary: null,
+		target: "normal",
+		type: "Ice",
+		contestType: "Tough",
+		gen: 6,
+	},
+	esperwing: {
+		num: 840,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Esper Wing",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		critRatio: 2,
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					spe: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Psychic",
+		gen: 6,
+	},
+	accelerock: {
+		num: 709,
+		accuracy: 100,
+		basePower: 40,
+		category: "Physical",
+		name: "Accelerock",
+		pp: 20,
+		priority: 1,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		secondary: null,
+		target: "normal",
+		type: "Rock",
+		contestType: "Cool",
+		gen: 6,
+	},
+	steelbeam: {
+		num: 796,
+		accuracy: 100,
+		basePower: 140,
+		category: "Special",
+		name: "Steel Beam",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		mindBlownRecoil: true,
+		onAfterMove(pokemon, target, move) {
+			if (move.mindBlownRecoil && !move.multihit) {
+				const hpBeforeRecoil = pokemon.hp;
+				this.damage(Math.round(pokemon.maxhp / 2), pokemon, pokemon, this.dex.conditions.get('Steel Beam'), true);
+				if (pokemon.hp <= pokemon.maxhp / 2 && hpBeforeRecoil > pokemon.maxhp / 2) {
+					this.runEvent('EmergencyExit', pokemon, pokemon);
+				}
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Steel",
+		gen: 6,
+	},
+	aquastep: {
+		num: 872,
+		accuracy: 100,
+		basePower: 50,
+		category: "Physical",
+		name: "Aqua Step",
+		pp: 20,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, dance: 1},
+		secondary: {
+			chance: 100,
+			self: {
+				boosts: {
+					spe: 1,
+				},
+			},
+		},
+		target: "normal",
+		type: "Water",
+		contestType: "Cool",
+		gen: 6,
+	},
+	chillingwater: {
+		num: 886,
+		accuracy: 100,
+		basePower: 65,
+		category: "Special",
+		name: "Chilling Water",
+		pp: 20,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				atk: -1,
+			},
+		},
+		target: "normal",
+		type: "Water",
+		contestType: "Beautiful",
+		gen: 6,
+	},
+	wavecrash: {
+		num: 834,
+		accuracy: 100,
+		basePower: 120,
+		category: "Physical",
+		name: "Wave Crash",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		recoil: [33, 100],
+		secondary: null,
+		target: "normal",
+		type: "Water",
+		gen: 6,
+	},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	//Offensive Moves//
 	/////Bug-Type//////
 	fellstinger: {
