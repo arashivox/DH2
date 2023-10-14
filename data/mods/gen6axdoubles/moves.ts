@@ -2610,7 +2610,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Comet Punch",
 		desc: "The target is hit with a two-punch combo. This may also raise the user's Attack stat.",
-		shortDesc: "Hits 2-times. 5% chance to +1 to user's Attack Stage.",
+		shortDesc: "Hits 2-times. 5% to +1 to user's Attack Stage.",
 		pp: 9.375,
 		
 		priority: 0,
