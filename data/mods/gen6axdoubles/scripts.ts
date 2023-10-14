@@ -96,6 +96,7 @@ export const Scripts: ModdedBattleScriptsData = {
 		this.modData("Learnsets", "abomasnow").learnset.earthpower = ["6L1"];
 		this.modData("Learnsets", "gallade").learnset.sacredsword = ["6L1"];
 		this.modData("Learnsets", "gallade").learnset.machpunch = ["6L1"];
+		delete this.modData('Learnsets', 'smeargle').learnset.sketch;
 		this.modData('Moves', 'aerialace').flags.slicing = 1;
 		this.modData('Moves', 'aircutter').flags.slicing = 1;
 		this.modData('Moves', 'airslash').flags.slicing = 1;
