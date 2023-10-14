@@ -7,6 +7,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Scorching Swarm",
 		desc: "20% Chance to burn the target.",
+		shortDesc: "20% Chance to burn the target.",
 		pp: 5,
 		
 		priority: 0,
@@ -32,6 +33,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Ground Pound",
 		desc: "20% Chance to make the target flinch.",
+		shortDesc: "20% Chance to make the target flinch.",
 		pp: 10,
 		
 		priority: 0,
@@ -58,6 +60,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Tussle",
 		desc: "10% Chance to paralyze the target.",
+		shortDesc: "10% Chance to paralyze the target.",
 		pp: 20,
 		
 		priority: 0,
@@ -84,6 +87,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Fates Flourish",
 		desc: "Crit Stage increased by 1.",
+		shortDesc: "Crit Stage increased by 1.",
 		pp: 5,
 		
 		priority: 0,
@@ -210,6 +214,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Headlong Rush",
 		desc: "Lowers the user's Attack and Defense by 1 stage.",
+		shortDesc: "Lowers the user's Attack and Defense by 1 stage.",
 		pp: 5,
 		
 		priority: 0,
@@ -512,6 +517,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 85,
 		category: "Physical",
 		name: "X-Scissor",
+		desc: "Crit Stage increased by 1.",
+		shortDesc: "Crit Stage increased by 1.",
 		pp: 10,
 		
 		priority: 0,
@@ -711,6 +718,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 50,
 		category: "Special",
 		name: "Charge Beam",
+		desc: "Always raise the user's Sp. Atk by 1 Stage.",
+		shortDesc: "Always raise the user's Sp. Atk by 1 Stage.",
 		pp: 10,
 		
 		priority: 0,
@@ -876,6 +885,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 75,
 		category: "Special",
 		name: "Draining Kiss",
+		desc: "User recovers 50% of the damage dealt.",
+		shortDesc: "User recovers 50% of the damage dealt.",
 		pp: 10,
 		
 		priority: 0,
@@ -894,6 +905,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 130,
 		category: "Special",
 		name: "Light of Ruin",
+		desc: "Lowers the user's Sp. Atk by 2 Stages.",
+		shortDesc: "Lowers the user's Sp. Atk by 2 Stages.",
 		pp: 5,
 		
 		priority: 0,
@@ -1102,6 +1115,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 70,
 		category: "Physical",
 		name: "Rock Smash",
+		desc: "Always lowers the target's Defense by 1 Stage.",
+		shortDesc: "Always lowers the target's Defense by 1 Stage.",
 		pp: 10,
 		
 		priority: 0,
@@ -1200,6 +1215,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 70,
 		category: "Physical",
 		name: "Vital Throw",
+		desc: "This move does not check accuracy.",
+		shortDesc: "This move does not check accuracy.",
 		pp: 10,
 		
 		priority: 0,
@@ -2103,6 +2120,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 65,
 		category: "Physical",
 		name: "Bone Club",
+		desc: "20% chance to make the target flinch.",
+		shortDesc: "20% chance to make the target flinch.",
 		pp: 9.375,
 		
 		priority: 0,
@@ -2162,6 +2181,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 95,
 		category: "Physical",
 		name: "Dig",
+		desc: "Digs underground turn 1, strikes turn 2. 20% chance to confuse the target.",
+		shortDesc: "Digs underground turn 1, strikes turn 2. 20% chance to confuse the target.",
 		pp: 10,
 		
 		priority: 0,
@@ -2228,6 +2249,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 160,
 		category: "Physical",
 		name: "Fissure",
+		desc: "User cannot move next turn.",
+		shortDesc: "User cannot move next turn.",
 		pp: 5,
 		
 		priority: 0,
@@ -2248,6 +2271,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 80,
 		category: "Special",
 		name: "Mud Bomb",
+		desc: "20 % chance to lower target's accuracy.",
+		shortDesc: "20% chance to lower target's accuracy.",
 		pp: 10,
 		
 		priority: 0,
@@ -2524,6 +2549,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 160,
 		category: "Special",
 		name: "Sheer Cold",
+		desc: "User cannot move next turn.",
+		shortDesc: "User cannot move next turn.",
 		pp: 5,
 		
 		priority: 0,
@@ -2582,6 +2609,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 40,
 		category: "Physical",
 		name: "Comet Punch",
+		desc: "The target is hit with a two-punch combo. This may also raise the user's Attack stat.",
+		shortDesc: "Always hits 2-times. 5% chance to raise user's Attack by 1 Stage.",
 		pp: 9.375,
 		
 		priority: 0,
@@ -2607,6 +2636,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 50,
 		category: "Physical",
 		name: "Constrict",
+		desc: "Always lowers target's Speed by 1 Stage.",
+		shortDesc: "Always lowers target's Speed by 1 Stage.",
 		pp: 20,
 		
 		priority: 0,
@@ -2629,6 +2660,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 80,
 		category: "Physical",
 		name: "Crush Claw",
+		desc: "Always lowers target's Defense by 1 Stage.",
+		shortDesc: "Always lowers target's Defense by 1 Stage.",
 		pp: 10,
 		
 		priority: 0,
@@ -2651,6 +2684,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 50,
 		category: "Physical",
 		name: "Cut",
+		desc: "This attack always results in a critical hit.",
+		shortDesc: "This attack always results in a critical hit.",
 		pp: 20,
 		
 		priority: 0,
@@ -2913,6 +2948,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 90,
 		category: "Physical",
 		name: "Hyper Fang",
+		desc: "30% chance to make the target flinch.",
+		shortDesc: "30% chance to make the target flinch.",
 		pp: 9.375,
 		
 		priority: 0,
@@ -2933,6 +2970,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 120,
 		category: "Physical",
 		name: "Mega Kick",
+		desc: "10% chance to raise user's Attack by 1 Stage.",
+		shortDesc: "10% chance to raise the user's Attack by 1 Stage.",
 		pp: 5,
 		
 		priority: 0,
@@ -2957,6 +2996,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 90,
 		category: "Physical",
 		name: "Mega Punch",
+		desc: "20% chance to make the target flinch.",
+		shortDesc: "20% chance to make the target flinch.",
 		pp: 9.375,
 		
 		priority: 0,
@@ -3029,6 +3070,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 50,
 		category: "Physical",
 		name: "Rapid Spin",
+		desc: "Free user from hazards/bind/Leech Seed; raises user's Speed by 1 Stage.",
+		shortDesc: "Free user from hazards/bind/Leech Seed; raises user's Speed by 1 Stage.",
 		pp: 2.5,
 		
 		priority: 0,
@@ -3085,6 +3128,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 120,
 		category: "Special",
 		name: "Razor Wind",
+		desc: "Crit Stage increased by 2.",
+		shortDesc: "Crit Stage increased by 2.",
 		pp: 10,
 		
 		priority: 0,
@@ -3234,6 +3279,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 100,
 		category: "Physical",
 		name: "Strength",
+		desc: "Lowers user's Defense and Sp. Defense by 1 Stage.",
+		shortDesc: "Lowers user's Defense and Sp. Defense by 1 Stage.",
 		pp: 9.375,
 		
 		priority: 0,
@@ -3543,6 +3590,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 95,
 		category: "Special",
 		name: "Heart Stamp",
+		desc: "10% chance to make the target flinch.",
+		shortDesc: "10% chance to make the target flinch.",
 		pp: 10,
 		
 		priority: 0,
@@ -3694,6 +3743,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 95,
 		category: "Special",
 		name: "Diamond Storm",
+		desc: "Always raises user's Defense by 2 Stages.",
+		shortDesc: "Always raises user's Defense by 2 Stages.",
 		pp: 1.25,
 		
 		priority: 0,
@@ -3736,6 +3787,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 80,
 		category: "Special",
 		name: "Power Gem",
+		desc: "10% chance to lower target's Sp. Defense by 1 Stage.",
+		shortDesc: "10 chance to lower target's Sp. Defense by 1 Stage.",
 		pp: 9.375,
 		
 		priority: 0,
@@ -4010,6 +4063,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 65,
 		category: "Special",
 		name: "Bubble Beam",
+		desc: "30% chance to lower target's Speed by 1 Stage.",
+		shortDesc: "30% chance to lower target's Speed by 1 Stage.",
 		pp: 20,
 		
 		priority: 0,
@@ -4050,6 +4105,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 95,
 		category: "Physical",
 		name: "Dive",
+		desc: "Dives underwater turn 1, strikes turn 2. 20% chance to confuse the target.",
+		shortDesc: "Dives underwater turn 1, strikes turn 2. 20% chance to confuse the target.",
 		pp: 10,
 		
 		priority: 0,
@@ -4163,6 +4220,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 75,
 		category: "Special",
 		name: "Octazooka",
+		desc: "Always lowers target's accuracy by 1 Stage.",
+		shortDesc: "Always lowers target's accuracy by 1 Stage.",
 		pp: 5,
 		
 		priority: 0,
@@ -4184,6 +4243,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 70,
 		category: "Physical",
 		name: "Razor Shell",
+		desc: "Always lowers target's Defense by 1 Stage.",
+		shortDesc: "Always lower's target's Defense by 1 Stage.",
 		pp: 10,
 		
 		priority: 0,
@@ -4233,6 +4294,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		category: "Special",
 		name: "Water Shuriken",
+		desc: "Prio increased by 1; always hits 3-times.",
+		shortDesc: "Prio incresed by 1; always hits 3-times.",
 		pp: 10,
 		
 		priority: 1,
@@ -8258,6 +8321,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Teleport",
+		desc: "Prio decreased by 6; User switches out.",
+		shortDesc: "Prio decreased by 6; User switches out.",
 		pp: 20,
 		
 		priority: -6,
