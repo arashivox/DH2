@@ -2182,7 +2182,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Dig",
 		desc: "Digs underground turn 1, strikes turn 2. 20% chance to confuse the target.",
-		shortDesc: "Digs underground turn 1, strikes turn 2. 20% chance to confuse the target.",
+		shortDesc: "2-turn Attack. 20% chance to confuse the target.",
 		pp: 10,
 		
 		priority: 0,
@@ -2610,7 +2610,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Comet Punch",
 		desc: "The target is hit with a two-punch combo. This may also raise the user's Attack stat.",
-		shortDesc: "Always hits 2-times. 5% chance to raise user's Attack by 1 Stage.",
+		shortDesc: "Hits 2-times. 5% chance to +1 to user's Attack Stage.",
 		pp: 9.375,
 		
 		priority: 0,
@@ -4106,7 +4106,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Dive",
 		desc: "Dives underwater turn 1, strikes turn 2. 20% chance to confuse the target.",
-		shortDesc: "Dives underwater turn 1, strikes turn 2. 20% chance to confuse the target.",
+		shortDesc: "2-turn Attack. 20% chance to confuse the target.",
 		pp: 10,
 		
 		priority: 0,
@@ -4295,7 +4295,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Water Shuriken",
 		desc: "Prio increased by 1; always hits 3-times.",
-		shortDesc: "Prio incresed by 1; always hits 3-times.",
+		shortDesc: "Prio increased by 1; always hits 3-times.",
 		pp: 10,
 		
 		priority: 1,
