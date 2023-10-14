@@ -102,7 +102,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	breakingswipe: {
-		num: -784,
+		num: 784,
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
@@ -122,7 +122,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	spiritbreak: {
-		num: -789,
+		num: 789,
 		accuracy: 100,
 		basePower: 75,
 		category: "Physical",
@@ -143,7 +143,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	dualwingbeat: {
 		inherit: true,
-		num: -814,
+		num: 814,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -160,7 +160,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	trailblaze: {
-		num: -885,
+		num: 885,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
@@ -183,7 +183,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	tropkick: {
-		num: -688,
+		num: 688,
 		accuracy: 100,
 		basePower: 70,
 		category: "Physical",
@@ -204,7 +204,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	headlongrush: {
-		num: -838,
+		num: 838,
 		accuracy: 100,
 		basePower: 120,
 		category: "Physical",
@@ -226,7 +226,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	icehammer: {
-		num: -665,
+		num: 665,
 		accuracy: 100,
 		basePower: 110,
 		category: "Physical",
@@ -247,7 +247,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	esperwing: {
-		num: -840,
+		num: 840,
 		accuracy: 100,
 		basePower: 70,
 		category: "Special",
@@ -270,7 +270,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	accelerock: {
-		num: -709,
+		num: 709,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -286,7 +286,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	steelbeam: {
-		num: -796,
+		num: 796,
 		accuracy: 100,
 		basePower: 140,
 		category: "Special",
@@ -311,7 +311,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	aquastep: {
-		num: -872,
+		num: 872,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
@@ -334,7 +334,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	chillingwater: {
-		num: -886,
+		num: 886,
 		accuracy: 100,
 		basePower: 65,
 		category: "Special",
@@ -355,7 +355,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	wavecrash: {
-		num: -834,
+		num: 834,
 		accuracy: 100,
 		basePower: 120,
 		category: "Physical",
@@ -373,7 +373,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	//Offensive Moves//
 	/////Bug-Type//////
 	fellstinger: {
-		num: -565,
+		num: 565,
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
@@ -393,7 +393,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	furycutter: {
-		num: -210,
+		num: 210,
 		accuracy: 100,
 		basePower: 40,
 		basePowerCallback(pokemon, target, move) {
@@ -430,7 +430,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	megahorn: {
-		num: -224,
+		num: 224,
 		accuracy: 90,
 		basePower: 120,
 		category: "Physical",
@@ -447,7 +447,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	pinmissile: {
-		num: -42,
+		num: 42,
 		accuracy: 100,
 		basePower: 25,
 		category: "Physical",
@@ -467,7 +467,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	twineedle: {
-		num: -41,
+		num: 41,
 		accuracy: 100,
 		basePower: 35,
 		category: "Physical",
@@ -489,7 +489,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	uturn: {
-		num: -369,
+		num: 369,
 		accuracy: 100,
 		basePower: 75,
 		category: "Physical",
@@ -507,7 +507,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	xscissor: {
-		num: -404,
+		num: 404,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -526,7 +526,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Dark-Type////
 	nightdaze: {
-		num: -539,
+		num: 539,
 		accuracy: 100,
 		basePower: 85,
 		category: "Special",
@@ -548,7 +548,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	nightslash: {
-		num: -400,
+		num: 400,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
@@ -566,7 +566,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	snarl: {
-		num: -555,
+		num: 555,
 		accuracy: 100,
 		basePower: 55,
 		category: "Special",
@@ -589,7 +589,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Dragon-Type////
 	dracometeor: {
-		num: -434,
+		num: 434,
 		accuracy: 100,
 		basePower: 130,
 		category: "Special",
@@ -611,7 +611,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	dragonrush: {
-		num: -407,
+		num: 407,
 		accuracy: 90,
 		basePower: 100,
 		category: "Physical",
@@ -631,7 +631,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	dragontail: {
-		num: -525,
+		num: 525,
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
@@ -648,7 +648,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	dualchop: {
-		num: -530,
+		num: 530,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -667,7 +667,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	roaroftime: {
-		num: -459,
+		num: 459,
 		accuracy: 100,
 		basePower: 160,
 		category: "Special",
@@ -687,7 +687,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	spacialrend: {
-		num: -460,
+		num: 460,
 		accuracy: 100,
 		basePower: 100,
 		category: "Special",
@@ -706,7 +706,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Electric-Type////
 	chargebeam: {
-		num: -451,
+		num: 451,
 		accuracy: 100,
 		basePower: 50,
 		category: "Special",
@@ -730,7 +730,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	electroweb: {
-		num: -527,
+		num: 527,
 		accuracy: 100,
 		basePower: 55,
 		category: "Special",
@@ -752,7 +752,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	nuzzle: {
-		num: -609,
+		num: 609,
 		accuracy: 100,
 		basePower: 20,
 		category: "Physical",
@@ -772,7 +772,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	paraboliccharge: {
-		num: -570,
+		num: 570,
 		accuracy: 100,
 		basePower: 75,
 		category: "Special",
@@ -790,7 +790,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	thunderfang: {
-		num: -422,
+		num: 422,
 		accuracy: 100,
 		basePower: 65,
 		category: "Physical",
@@ -815,7 +815,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	voltswitch: {
-		num: -521,
+		num: 521,
 		accuracy: 100,
 		basePower: 75,
 		category: "Special",
@@ -833,7 +833,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	zapcannon: {
-		num: -192,
+		num: 192,
 		accuracy: 75,
 		basePower: 85,
 		category: "Special",
@@ -854,7 +854,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Fairy-Type////
 	disarmingvoice: {
-		num: -574,
+		num: 574,
 		accuracy: true,
 		basePower: 60,
 		category: "Special",
@@ -871,7 +871,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	drainingkiss: {
-		num: -577,
+		num: 577,
 		accuracy: 100,
 		basePower: 75,
 		category: "Special",
@@ -889,7 +889,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	lightofruin: {
-		num: -617,
+		num: 617,
 		accuracy: 100,
 		basePower: 130,
 		category: "Special",
@@ -913,7 +913,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	playrough: {
-		num: -583,
+		num: 583,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -936,7 +936,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Fighting-Type////
 	armthrust: {
-		num: -292,
+		num: 292,
 		accuracy: 100,
 		basePower: 22,
 		category: "Physical",
@@ -954,7 +954,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	circlethrow: {
-		num: -509,
+		num: 509,
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
@@ -971,7 +971,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	crosschop: {
-		num: -238,
+		num: 238,
 		accuracy: 90,
 		basePower: 100,
 		category: "Physical",
@@ -989,7 +989,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	doublekick: {
-		num: -24,
+		num: 24,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -1008,7 +1008,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	flyingpress: {
-		num: -560,
+		num: 560,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -1029,7 +1029,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	focusblast: {
-		num: -411,
+		num: 411,
 		accuracy: 85,
 		basePower: 120,
 		category: "Special",
@@ -1051,7 +1051,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	hammerarm: {
-		num: -359,
+		num: 359,
 		accuracy: 100,
 		basePower: 110,
 		category: "Physical",
@@ -1073,7 +1073,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	poweruppunch: {
-		num: -612,
+		num: 612,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
@@ -1097,7 +1097,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	rocksmash: {
-		num: -249,
+		num: 249,
 		accuracy: 100,
 		basePower: 70,
 		category: "Physical",
@@ -1119,7 +1119,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	rollingkick: {
-		num: -27,
+		num: 27,
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
@@ -1139,7 +1139,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	skyuppercut: {
-		num: -327,
+		num: 327,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -1156,7 +1156,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	submission: {
-		num: -66,
+		num: 66,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -1174,7 +1174,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	triplekick: {
-		num: -167,
+		num: 167,
 		accuracy: 100,
 		basePower: 17,
 		basePowerCallback(pokemon, target, move) {
@@ -1195,7 +1195,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	vitalthrow: {
-		num: -233,
+		num: 233,
 		accuracy: true,
 		basePower: 70,
 		category: "Physical",
@@ -1213,7 +1213,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Fire////
 	blastburn: {
-		num: -307,
+		num: 307,
 		accuracy: 100,
 		basePower: 160,
 		category: "Special",
@@ -1233,7 +1233,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	blazekick: {
-		num: -299,
+		num: 299,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -1254,7 +1254,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	fireblast: {
-		num: -126,
+		num: 126,
 		accuracy: 90,
 		basePower: 110,
 		category: "Special",
@@ -1274,7 +1274,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	firefang: {
-		num: -424,
+		num: 424,
 		accuracy: 100,
 		basePower: 65,
 		category: "Physical",
@@ -1299,7 +1299,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	firespin: {
-		num: -83,
+		num: 83,
 		accuracy: 100,
 		basePower: 20,
 		category: "Special",
@@ -1317,7 +1317,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	flamewheel: {
-		num: -172,
+		num: 172,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
@@ -1337,7 +1337,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	heatwave: {
-		num: -257,
+		num: 257,
 		accuracy: 100,
 		basePower: 95,
 		category: "Special",
@@ -1357,7 +1357,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	inferno: {
-		num: -517,
+		num: 517,
 		accuracy: 75,
 		basePower: 90,
 		category: "Special",
@@ -1377,7 +1377,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	overheat: {
-		num: -315,
+		num: 315,
 		accuracy: 100,
 		basePower: 130,
 		category: "Special",
@@ -1399,7 +1399,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	sacredfire: {
-		num: -221,
+		num: 221,
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
@@ -1419,7 +1419,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	vcreate: {
-		num: -557,
+		num: 557,
 		accuracy: 100,
 		basePower: 180,
 		category: "Physical",
@@ -1445,7 +1445,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Flying-Type////
 	aeroblast: {
-		num: -177,
+		num: 177,
 		accuracy: 100,
 		basePower: 100,
 		category: "Special",
@@ -1463,7 +1463,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	aircutter: {
-		num: -314,
+		num: 314,
 		accuracy: 100,
 		basePower: 60,
 		category: "Special",
@@ -1481,7 +1481,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	airslash: {
-		num: -403,
+		num: 403,
 		accuracy: 100,
 		basePower: 85,
 		category: "Special",
@@ -1501,7 +1501,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	bounce: {
-		num: -340,
+		num: 340,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -1548,7 +1548,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	chatter: {
-		num: -448,
+		num: 448,
 		accuracy: 100,
 		basePower: 65,
 		category: "Special",
@@ -1572,7 +1572,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	drillpeck: {
-		num: -65,
+		num: 65,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -1589,7 +1589,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	fly: {
-		num: -19,
+		num: 19,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -1633,7 +1633,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	peck: {
-		num: -64,
+		num: 64,
 		accuracy: 100,
 		basePower: 45,
 		category: "Physical",
@@ -1650,7 +1650,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	skyattack: {
-		num: -143,
+		num: 143,
 		accuracy: 100,
 		basePower: 150,
 		category: "Physical",
@@ -1682,7 +1682,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	skydrop: {
-		num: -507,
+		num: 507,
 		accuracy: 100,
 		basePower: 75,
 		category: "Physical",
@@ -1799,7 +1799,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Ghost-Type////
 	astonish: {
-		num: -310,
+		num: 310,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
@@ -1819,7 +1819,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	lick: {
-		num: -122,
+		num: 122,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
@@ -1839,7 +1839,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	phantomforce: {
-		num: -566,
+		num: 566,
 		accuracy: 100,
 		basePower: 95,
 		category: "Physical",
@@ -1872,7 +1872,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	shadowclaw: {
-		num: -421,
+		num: 421,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -1890,7 +1890,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	shadowpunch: {
-		num: -325,
+		num: 325,
 		accuracy: true,
 		basePower: 80,
 		category: "Physical",
@@ -1908,7 +1908,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Grass-Type////
 	absorb: {
-		num: -71,
+		num: 71,
 		accuracy: 100,
 		basePower: 40,
 		category: "Special",
@@ -1926,7 +1926,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	frenzyplant: {
-		num: -338,
+		num: 338,
 		accuracy: 100,
 		basePower: 170,
 		category: "Special",
@@ -1946,7 +1946,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	gigadrain: {
-		num: -202,
+		num: 202,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
@@ -1964,7 +1964,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	hornleech: {
-		num: -532,
+		num: 532,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
@@ -1982,7 +1982,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	leafstorm: {
-		num: -437,
+		num: 437,
 		accuracy: 100,
 		basePower: 130,
 		category: "Special",
@@ -2004,7 +2004,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	leaftornado: {
-		num: -536,
+		num: 536,
 		accuracy: 100,
 		basePower: 65,
 		category: "Special",
@@ -2026,7 +2026,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	megadrain: {
-		num: -72,
+		num: 72,
 		accuracy: 100,
 		basePower: 60,
 		category: "Special",
@@ -2045,7 +2045,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	petalblizzard: {
-		num: -572,
+		num: 572,
 		accuracy: 100,
 		basePower: 90,
 		category: "Special",
@@ -2062,7 +2062,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	powerwhip: {
-		num: -438,
+		num: 438,
 		accuracy: 90,
 		basePower: 120,
 		category: "Physical",
@@ -2079,7 +2079,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	razorleaf: {
-		num: -75,
+		num: 75,
 		accuracy: 100,
 		basePower: 55,
 		category: "Physical",
@@ -2098,7 +2098,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Ground-Type////
 	boneclub: {
-		num: -125,
+		num: 125,
 		accuracy: 100,
 		basePower: 65,
 		category: "Physical",
@@ -2118,7 +2118,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	bonerush: {
-		num: -198,
+		num: 198,
 		accuracy: 100,
 		basePower: 25,
 		category: "Physical",
@@ -2138,7 +2138,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	bonemerang: {
-		num: -155,
+		num: 155,
 		accuracy: 100,
 		basePower: 55,
 		category: "Physical",
@@ -2157,7 +2157,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	dig: {
-		num: -91,
+		num: 91,
 		accuracy: 100,
 		basePower: 95,
 		category: "Physical",
@@ -2205,7 +2205,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	drillrun: {
-		num: -529,
+		num: 529,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
@@ -2223,7 +2223,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	fissure: {
-		num: -90,
+		num: 90,
 		accuracy: 100,
 		basePower: 160,
 		category: "Physical",
@@ -2243,7 +2243,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	mudbomb: {
-		num: -426,
+		num: 426,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
@@ -2265,7 +2265,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	mudshot: {
-		num: -341,
+		num: 341,
 		accuracy: 100,
 		basePower: 55,
 		category: "Special",
@@ -2287,7 +2287,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	mudslap: {
-		num: -189,
+		num: 189,
 		accuracy: 100,
 		basePower: 35,
 		category: "Special",
@@ -2309,7 +2309,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	sandtomb: {
-		num: -328,
+		num: 328,
 		accuracy: 100,
 		basePower: 20,
 		category: "Physical",
@@ -2328,7 +2328,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Ice-Type////
 	freezedry: {
-		num: -573,
+		num: 573,
 		accuracy: 100,
 		basePower: 75,
 		category: "Special",
@@ -2351,7 +2351,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	freezeshock: {
-		num: -553,
+		num: 553,
 		accuracy: 100,
 		basePower: 150,
 		category: "Physical",
@@ -2382,7 +2382,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	frostbreath: {
-		num: -524,
+		num: 524,
 		accuracy: 100,
 		basePower: 60,
 		category: "Special",
@@ -2399,7 +2399,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	glaciate: {
-		num: -549,
+		num: 549,
 		accuracy: 100,
 		basePower: 65,
 		category: "Special",
@@ -2421,7 +2421,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	iceburn: {
-		num: -554,
+		num: 554,
 		accuracy: 100,
 		basePower: 150,
 		category: "Special",
@@ -2452,7 +2452,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	icefang: {
-		num: -423,
+		num: 423,
 		accuracy: 100,
 		basePower: 65,
 		category: "Physical",
@@ -2477,7 +2477,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	iciclecrash: {
-		num: -556,
+		num: 556,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -2497,7 +2497,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	icywind: {
-		num: -196,
+		num: 196,
 		accuracy: 100,
 		basePower: 55,
 		category: "Special",
@@ -2519,7 +2519,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	sheercold: {
-		num: -329,
+		num: 329,
 		accuracy: 100,
 		basePower: 160,
 		category: "Special",
@@ -2541,7 +2541,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Normal-Type////
 	barrage: {
-		num: -140,
+		num: 140,
 		accuracy: 100,
 		basePower: 25,
 		category: "Special",
@@ -2559,7 +2559,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	bind: {
-		num: -20,
+		num: 20,
 		accuracy: 100,
 		basePower: 20,
 		category: "Physical",
@@ -2577,7 +2577,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	cometpunch: {
-		num: -4,
+		num: 4,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -2602,7 +2602,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	constrict: {
-		num: -132,
+		num: 132,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
@@ -2624,7 +2624,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	crushclaw: {
-		num: -306,
+		num: 306,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
@@ -2646,7 +2646,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	cut: {
-		num: -15,
+		num: 15,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
@@ -2664,7 +2664,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	dizzypunch: {
-		num: -146,
+		num: 146,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -2684,7 +2684,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	doublehit: {
-		num: -458,
+		num: 458,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -2704,7 +2704,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	doubleslap: {
-		num: -3,
+		num: 3,
 		accuracy: 100,
 		basePower: 22,
 		category: "Physical",
@@ -2722,7 +2722,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	eggbomb: {
-		num: -121,
+		num: 121,
 		accuracy: 90,
 		basePower: 120,
 		category: "Special",
@@ -2739,7 +2739,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	fakeout: {
-		num: -252,
+		num: 252,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -2765,7 +2765,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	frustration: {
-		num: -218,
+		num: 218,
 		accuracy: 100,
 		basePower: 0,
 		basePowerCallback(pokemon) {
@@ -2787,7 +2787,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	furyattack: {
-		num: -31,
+		num: 31,
 		accuracy: 100,
 		basePower: 22,
 		category: "Physical",
@@ -2805,7 +2805,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	furyswipes: {
-		num: -154,
+		num: 154,
 		accuracy: 100,
 		basePower: 22,
 		category: "Physical",
@@ -2824,7 +2824,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	gigaimpact: {
-		num: -416,
+		num: 416,
 		accuracy: 100,
 		basePower: 160,
 		category: "Physical",
@@ -2844,7 +2844,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	guillotine: {
-		num: -12,
+		num: 12,
 		accuracy: 100,
 		basePower: 160,
 		category: "Physical",
@@ -2866,7 +2866,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	horndrill: {
-		num: -32,
+		num: 32,
 		accuracy: 100,
 		basePower: 170,
 		category: "Physical",
@@ -2888,7 +2888,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	hyperbeam: {
-		num: -63,
+		num: 63,
 		accuracy: 100,
 		basePower: 160,
 		category: "Special",
@@ -2908,7 +2908,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	hyperfang: {
-		num: -158,
+		num: 158,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -2928,7 +2928,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	megakick: {
-		num: -25,
+		num: 25,
 		accuracy: 90,
 		basePower: 120,
 		category: "Physical",
@@ -2952,7 +2952,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	megapunch: {
-		num: -5,
+		num: 5,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -2972,7 +2972,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	payday: {
-		num: -6,
+		num: 6,
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
@@ -2989,7 +2989,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	rage: {
-		num: -99,
+		num: 99,
 		accuracy: 100,
 		basePower: 70,
 		category: "Physical",
@@ -3024,7 +3024,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	rapidspin: {
-		num: -229,
+		num: 229,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
@@ -3080,7 +3080,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	razorwind: {
-		num: -13,
+		num: 13,
 		accuracy: 100,
 		basePower: 120,
 		category: "Special",
@@ -3109,7 +3109,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	return: {
-		num: -216,
+		num: 216,
 		accuracy: 100,
 		basePower: 0,
 		basePowerCallback(pokemon) {
@@ -3131,7 +3131,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	rockclimb: {
-		num: -431,
+		num: 431,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -3151,7 +3151,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	slam: {
-		num: -21,
+		num: 21,
 		accuracy: 90,
 		basePower: 100,
 		category: "Physical",
@@ -3168,7 +3168,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	slash: {
-		num: -163,
+		num: 163,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -3186,7 +3186,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	snore: {
-		num: -173,
+		num: 173,
 		accuracy: 100,
 		basePower: 70,
 		category: "Special",
@@ -3210,7 +3210,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	spikecannon: {
-		num: -131,
+		num: 131,
 		accuracy: 100,
 		basePower: 22,
 		category: "Physical",
@@ -3229,7 +3229,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	strength: {
-		num: -70,
+		num: 70,
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
@@ -3251,7 +3251,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	superfang: {
-		num: -162,
+		num: 162,
 		accuracy: 100,
 		basePower: 0,
 		damageCallback(pokemon, target) {
@@ -3271,7 +3271,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	tackle: {
-		num: -33,
+		num: 33,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -3288,7 +3288,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	tailslap: {
-		num: -541,
+		num: 541,
 		accuracy: 100,
 		basePower: 25,
 		category: "Physical",
@@ -3308,7 +3308,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	takedown: {
-		num: -36,
+		num: 36,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -3326,7 +3326,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	triattack: {
-		num: -161,
+		num: 161,
 		accuracy: 100,
 		basePower: 90,
 		category: "Special",
@@ -3355,7 +3355,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	wrap: {
-		num: -35,
+		num: 35,
 		accuracy: 100,
 		basePower: 20,
 		category: "Physical",
@@ -3374,7 +3374,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Poison-Type////
 	belch: {
-		num: -562,
+		num: 562,
 		accuracy: 100,
 		basePower: 120,
 		category: "Special",
@@ -3394,7 +3394,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	crosspoison: {
-		num: -440,
+		num: 440,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
@@ -3415,7 +3415,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	gunkshot: {
-		num: -441,
+		num: 441,
 		accuracy: 85,
 		basePower: 120,
 		category: "Physical",
@@ -3435,7 +3435,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	poisonsting: {
-		num: -40,
+		num: 40,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
@@ -3455,7 +3455,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	poisontail: {
-		num: -342,
+		num: 342,
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
@@ -3476,7 +3476,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	sludge: {
-		num: -124,
+		num: 124,
 		accuracy: 100,
 		basePower: 60,
 		category: "Special",
@@ -3496,7 +3496,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	smog: {
-		num: -123,
+		num: 123,
 		accuracy: 100,
 		basePower: 40,
 		category: "Special",
@@ -3517,7 +3517,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Psychic-Type////
 	dreameater: {
-		num: -138,
+		num: 138,
 		accuracy: 100,
 		basePower: 120,
 		category: "Special",
@@ -3538,7 +3538,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	heartstamp: {
-		num: -531,
+		num: 531,
 		accuracy: 100,
 		basePower: 95,
 		category: "Special",
@@ -3558,7 +3558,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	hyperspacehole: {
-		num: -593,
+		num: 593,
 		accuracy: true,
 		basePower: 95,
 		category: "Special",
@@ -3576,7 +3576,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	psychoboost: {
-		num: -354,
+		num: 354,
 		accuracy: 100,
 		basePower: 140,
 		category: "Special",
@@ -3598,7 +3598,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	psychocut: {
-		num: -427,
+		num: 427,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -3616,7 +3616,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	storedpower: {
-		num: -500,
+		num: 500,
 		accuracy: 100,
 		basePower: 50,
 		basePowerCallback(pokemon, target, move) {
@@ -3640,7 +3640,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	zenheadbutt: {
-		num: -428,
+		num: 428,
 		accuracy: 100,
 		basePower: 80,
 		category: "Physical",
@@ -3661,7 +3661,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Rock-Type////
 	ancientpower: {
-		num: -246,
+		num: 246,
 		accuracy: 100,
 		basePower: 60,
 		category: "Special",
@@ -3689,7 +3689,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	diamondstorm: {
-		num: -591,
+		num: 591,
 		accuracy: 100,
 		basePower: 95,
 		category: "Special",
@@ -3713,7 +3713,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	headsmash: {
-		num: -457,
+		num: 457,
 		accuracy: 90,
 		basePower: 150,
 		category: "Physical",
@@ -3731,7 +3731,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	powergem: {
-		num: -408,
+		num: 408,
 		accuracy: 100,
 		basePower: 80,
 		category: "Special",
@@ -3753,7 +3753,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	rockblast: {
-		num: -350,
+		num: 350,
 		accuracy: 100,
 		basePower: 25,
 		category: "Physical",
@@ -3773,7 +3773,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	rockthrow: {
-		num: -88,
+		num: 88,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
@@ -3790,7 +3790,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	rocktomb: {
-		num: -317,
+		num: 317,
 		accuracy: 100,
 		basePower: 60,
 		category: "Physical",
@@ -3812,7 +3812,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	rockwrecker: {
-		num: -439,
+		num: 439,
 		accuracy: 100,
 		basePower: 160,
 		category: "Physical",
@@ -3832,7 +3832,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	stoneedge: {
-		num: -444,
+		num: 444,
 		accuracy: 90,
 		basePower: 100,
 		category: "Physical",
@@ -3851,7 +3851,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Steel-Type////
 	geargrind: {
-		num: -544,
+		num: 544,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
@@ -3871,7 +3871,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	irontail: {
-		num: -231,
+		num: 231,
 		accuracy: 90,
 		basePower: 100,
 		category: "Physical",
@@ -3893,7 +3893,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	metalclaw: {
-		num: -232,
+		num: 232,
 		accuracy: 100,
 		basePower: 50,
 		category: "Physical",
@@ -3917,7 +3917,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	meteormash: {
-		num: -309,
+		num: 309,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -3941,7 +3941,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	mirrorshot: {
-		num: -429,
+		num: 429,
 		accuracy: 100,
 		basePower: 65,
 		category: "Special",
@@ -3963,7 +3963,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	steelwing: {
-		num: -211,
+		num: 211,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -3988,7 +3988,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Water-Type////
 	aquatail: {
-		num: -401,
+		num: 401,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
@@ -4005,7 +4005,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	bubblebeam: {
-		num: -61,
+		num: 61,
 		accuracy: 100,
 		basePower: 65,
 		category: "Special",
@@ -4027,7 +4027,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	clamp: {
-		num: -128,
+		num: 128,
 		accuracy: 100,
 		basePower: 20,
 		category: "Physical",
@@ -4045,7 +4045,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	dive: {
-		num: -291,
+		num: 291,
 		accuracy: 100,
 		basePower: 95,
 		category: "Physical",
@@ -4099,7 +4099,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	hydrocannon: {
-		num: -308,
+		num: 308,
 		accuracy: 100,
 		basePower: 160,
 		category: "Special",
@@ -4119,7 +4119,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	hydropump: {
-		num: -56,
+		num: 56,
 		accuracy: 90,
 		basePower: 110,
 		category: "Special",
@@ -4136,7 +4136,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	muddywater: {
-		num: -330,
+		num: 330,
 		accuracy: 100,
 		basePower: 90,
 		category: "Special",
@@ -4158,7 +4158,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	octazooka: {
-		num: -190,
+		num: 190,
 		accuracy: 100,
 		basePower: 75,
 		category: "Special",
@@ -4179,7 +4179,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	razorshell: {
-		num: -534,
+		num: 534,
 		accuracy: 100,
 		basePower: 70,
 		category: "Physical",
@@ -4200,7 +4200,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	steameruption: {
-		num: -592,
+		num: 592,
 		accuracy: 100,
 		basePower: 110,
 		category: "Special",
@@ -4221,7 +4221,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	watershuriken: {
-		num: -594,
+		num: 594,
 		accuracy: 100,
 		basePower: 20,
 		basePowerCallback(pokemon, target, move) {
@@ -4246,7 +4246,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	whirlpool: {
-		num: -250,
+		num: 250,
 		accuracy: 100,
 		basePower: 20,
 		category: "Special",
@@ -4266,7 +4266,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	////Status-Moves////
 	////Bug-Type////
 	defendorder: {
-		num: -455,
+		num: 455,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4288,7 +4288,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	healorder: {
-		num: -456,
+		num: 456,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4307,7 +4307,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	quiverdance: {
-		num: -483,
+		num: 483,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4330,7 +4330,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	stickyweb: {
-		num: -564,
+		num: 564,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4359,7 +4359,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	stringshot: {
-		num: -81,
+		num: 81,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -4380,7 +4380,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	tailglow: {
-		num: -294,
+		num: 294,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4402,7 +4402,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Dark-Type////
 	darkvoid: {
-		num: -464,
+		num: 464,
 		accuracy: 80,
 		basePower: 0,
 		category: "Status",
@@ -4429,7 +4429,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	faketears: {
-		num: -313,
+		num: 313,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -4450,7 +4450,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	flatter: {
-		num: -260,
+		num: 260,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -4472,7 +4472,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	honeclaws: {
-		num: -468,
+		num: 468,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4494,7 +4494,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	nastyplot: {
-		num: -417,
+		num: 417,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4515,7 +4515,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	partingshot: {
-		num: -575,
+		num: 575,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -4540,7 +4540,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	taunt: {
-		num: -269,
+		num: 269,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -4588,7 +4588,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Dragon-Type////
 	dragondance: {
-		num: -349,
+		num: 349,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4611,7 +4611,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Electric-Type////
 	charge: {
-		num: -268,
+		num: 268,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4669,7 +4669,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	eerieimpulse: {
-		num: -598,
+		num: 598,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -4690,7 +4690,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	electricterrain: {
-		num: -604,
+		num: 604,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4752,7 +4752,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	magnetrise: {
-		num: -393,
+		num: 393,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4793,7 +4793,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	thunderwave: {
-		num: -86,
+		num: 86,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -4814,7 +4814,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Fairy-Type////
 	aromaticmist: {
-		num: -597,
+		num: 597,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4835,7 +4835,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	babydolleyes: {
-		num: -608,
+		num: 608,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -4856,7 +4856,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	charm: {
-		num: -204,
+		num: 204,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -4877,7 +4877,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	geomancy: {
-		num: -601,
+		num: 601,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4911,7 +4911,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	flowershield: {
-		num: -579,
+		num: 579,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -4947,7 +4947,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	mistyterrain: {
-		num: -581,
+		num: 581,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5008,7 +5008,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	moonlight: {
-		num: -236,
+		num: 236,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5046,7 +5046,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		contestType: "Beautiful",
 	},
 	sweetkiss: {
-		num: -186,
+		num: 186,
 		accuracy: 75,
 		basePower: 0,
 		category: "Status",
@@ -5066,7 +5066,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Fighting-Type////
 	bulkup: {
-		num: -339,
+		num: 339,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5088,7 +5088,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	detect: {
-		num: -197,
+		num: 197,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5114,7 +5114,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	matblock: {
-		num: -561,
+		num: 561,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5165,7 +5165,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	quickguard: {
-		num: -501,
+		num: 501,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5217,7 +5217,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Fire-Type////
 	sunnyday: {
-		num: -241,
+		num: 241,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5236,7 +5236,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	willowisp: {
-		num: -261,
+		num: 261,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -5256,7 +5256,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Flying-Type////
 	defog: {
-		num: -432,
+		num: 432,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5299,7 +5299,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	featherdance: {
-		num: -297,
+		num: 297,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -5320,7 +5320,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	roost: {
-		num: -355,
+		num: 355,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5358,7 +5358,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	tailwind: {
-		num: -366,
+		num: 366,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5403,7 +5403,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Ghost-Type////
 	confuseray: {
-		num: -109,
+		num: 109,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -5422,7 +5422,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	curse: {
-		num: -174,
+		num: 174,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5471,7 +5471,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Grass-Type////
 	aromatherapy: {
-		num: -312,
+		num: 312,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5501,7 +5501,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	cottonguard: {
-		num: -538,
+		num: 538,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5522,7 +5522,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	cottonspore: {
-		num: -178,
+		num: 178,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -5543,7 +5543,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	grasswhistle: {
-		num: -320,
+		num: 320,
 		accuracy: 85,
 		basePower: 0,
 		category: "Status",
@@ -5562,7 +5562,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	grassyterrain: {
-		num: -580,
+		num: 580,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5623,7 +5623,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	leechseed: {
-		num: -73,
+		num: 73,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -5662,7 +5662,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	sleeppowder: {
-		num: -79,
+		num: 79,
 		accuracy: 75,
 		basePower: 0,
 		category: "Status",
@@ -5681,7 +5681,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	spikyshield: {
-		num: -596,
+		num: 596,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5742,7 +5742,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	spore: {
-		num: -147,
+		num: 147,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -5761,7 +5761,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	stunspore: {
-		num: -78,
+		num: 78,
 		accuracy: 90,
 		basePower: 0,
 		category: "Status",
@@ -5780,7 +5780,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	synthesis: {
-		num: -235,
+		num: 235,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5821,7 +5821,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Ground-Type////
 	rototiller: {
-		num: -563,
+		num: 563,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5858,7 +5858,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	sandattack: {
-		num: -28,
+		num: 28,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -5879,7 +5879,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	spikes: {
-		num: -191,
+		num: 191,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5916,7 +5916,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Ice-Type////
 	hail: {
-		num: -258,
+		num: 258,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5935,7 +5935,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	haze: {
-		num: -114,
+		num: 114,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -5959,7 +5959,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	mist: {
-		num: -54,
+		num: 54,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6006,7 +6006,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Normal-Type////
 	acupressure: {
-		num: -367,
+		num: 367,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6041,7 +6041,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	attract: {
-		num: -213,
+		num: 213,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -6101,7 +6101,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	batonpass: {
-		num: -226,
+		num: 226,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6132,7 +6132,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	bellydrum: {
-		num: -187,
+		num: 187,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6157,7 +6157,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	captivate: {
-		num: -445,
+		num: 445,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -6181,7 +6181,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	confide: {
-		num: -590,
+		num: 590,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6202,7 +6202,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	defensecurl: {
-		num: -111,
+		num: 111,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6228,7 +6228,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	disable: {
-		num: -50,
+		num: 50,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -6301,7 +6301,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	doubleteam: {
-		num: -104,
+		num: 104,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6322,7 +6322,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	encore: {
-		num: -227,
+		num: 227,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -6385,7 +6385,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	flash: {
-		num: -148,
+		num: 148,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -6406,7 +6406,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	followme: {
-		num: -266,
+		num: 266,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6446,7 +6446,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	glare: {
-		num: -137,
+		num: 137,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -6465,7 +6465,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	growl: {
-		num: -45,
+		num: 45,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -6486,7 +6486,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	harden: {
-		num: -106,
+		num: 106,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6507,7 +6507,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	healbell: {
-		num: -215,
+		num: 215,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6534,7 +6534,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	helpinghand: {
-		num: -270,
+		num: 270,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6572,7 +6572,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	howl: {
-		num: -336,
+		num: 336,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6593,7 +6593,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	leer: {
-		num: -43,
+		num: 43,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -6614,7 +6614,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	lovelykiss: {
-		num: -142,
+		num: 142,
 		accuracy: 90,
 		basePower: 0,
 		category: "Status",
@@ -6633,7 +6633,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	milkdrink: {
-		num: -208,
+		num: 208,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6652,7 +6652,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	minimize: {
-		num: -107,
+		num: 107,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6695,7 +6695,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	morningsun: {
-		num: -234,
+		num: 234,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6735,7 +6735,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	nobleroar: {
-		num: -568,
+		num: 568,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -6757,7 +6757,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	painsplit: {
-		num: -220,
+		num: 220,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6784,7 +6784,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	perishsong: {
-		num: -195,
+		num: 195,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6833,7 +6833,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	playnice: {
-		num: -589,
+		num: 589,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6854,7 +6854,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	protect: {
-		num: -182,
+		num: 182,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6907,7 +6907,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	recover: {
-		num: -105,
+		num: 105,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6926,7 +6926,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	refresh: {
-		num: -287,
+		num: 287,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6948,7 +6948,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	roar: {
-		num: -46,
+		num: 46,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -6967,7 +6967,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	safeguard: {
-		num: -219,
+		num: 219,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7028,7 +7028,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	scaryface: {
-		num: -184,
+		num: 184,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -7049,7 +7049,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	screech: {
-		num: -103,
+		num: 103,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -7070,7 +7070,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	sharpen: {
-		num: -159,
+		num: 159,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7091,7 +7091,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	shellsmash: {
-		num: -504,
+		num: 504,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7116,7 +7116,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	sing: {
-		num: -47,
+		num: 47,
 		accuracy: 75,
 		basePower: 0,
 		category: "Status",
@@ -7135,7 +7135,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	slackoff: {
-		num: -303,
+		num: 303,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7154,7 +7154,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	smokescreen: {
-		num: -108,
+		num: 108,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -7175,7 +7175,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	softboiled: {
-		num: -135,
+		num: 135,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7194,7 +7194,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	stockpile: {
-		num: -254,
+		num: 254,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7251,7 +7251,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	substitute: {
-		num: -164,
+		num: 164,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7336,7 +7336,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	supersonic: {
-		num: -48,
+		num: 48,
 		accuracy: 75,
 		basePower: 0,
 		category: "Status",
@@ -7355,7 +7355,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	sweetscent: {
-		num: -230,
+		num: 230,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -7376,7 +7376,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	swordsdance: {
-		num: -14,
+		num: 14,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7397,7 +7397,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	tailwhip: {
-		num: -39,
+		num: 39,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -7418,7 +7418,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	teeterdance: {
-		num: -298,
+		num: 298,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -7437,7 +7437,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	tickle: {
-		num: -321,
+		num: 321,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -7459,7 +7459,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	whirlwind: {
-		num: -18,
+		num: 18,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7478,7 +7478,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	wish: {
-		num: -273,
+		num: 273,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7512,7 +7512,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	workup: {
-		num: -526,
+		num: 526,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7534,7 +7534,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	yawn: {
-		num: -281,
+		num: 281,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7571,7 +7571,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Poison-Type////
 	acidarmor: {
-		num: -151,
+		num: 151,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7592,7 +7592,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	coil: {
-		num: -489,
+		num: 489,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7615,7 +7615,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	poisongas: {
-		num: -139,
+		num: 139,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -7634,7 +7634,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	poisonpowder: {
-		num: -77,
+		num: 77,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -7653,7 +7653,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	toxic: {
-		num: -92,
+		num: 92,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -7673,7 +7673,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	toxicspikes: {
-		num: -390,
+		num: 390,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7717,7 +7717,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	venomdrench: {
-		num: -599,
+		num: 599,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -7742,7 +7742,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Psychic-Type////
 	agility: {
-		num: -97,
+		num: 97,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7763,7 +7763,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	allyswitch: {
-		num: -502,
+		num: 502,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7792,7 +7792,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	amnesia: {
-		num: -133,
+		num: 133,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7813,7 +7813,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	barrier: {
-		num: -112,
+		num: 112,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7834,7 +7834,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	calmmind: {
-		num: -347,
+		num: 347,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7856,7 +7856,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	cosmicpower: {
-		num: -322,
+		num: 322,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7878,7 +7878,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	gravity: {
-		num: -356,
+		num: 356,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -7971,7 +7971,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	healblock: {
-		num: -377,
+		num: 377,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -8038,7 +8038,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	hypnosis: {
-		num: -95,
+		num: 95,
 		accuracy: 75,
 		basePower: 0,
 		category: "Status",
@@ -8057,7 +8057,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	kinesis: {
-		num: -134,
+		num: 134,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -8078,7 +8078,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	lightscreen: {
-		num: -113,
+		num: 113,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8123,7 +8123,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	meditate: {
-		num: -96,
+		num: 96,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8144,7 +8144,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	psychoshift: {
-		num: -375,
+		num: 375,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -8171,7 +8171,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	reflect: {
-		num: -115,
+		num: 115,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8216,7 +8216,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	rest: {
-		num: -156,
+		num: 156,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8253,7 +8253,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	teleport: {
-		num: -100,
+		num: 100,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8275,7 +8275,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	trickroom: {
-		num: -433,
+		num: 433,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8321,7 +8321,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Rock-Type////
 	rockpolish: {
-		num: -397,
+		num: 397,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8342,7 +8342,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	sandstorm: {
-		num: -201,
+		num: 201,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8361,7 +8361,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	stealthrock: {
-		num: -446,
+		num: 446,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8391,7 +8391,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	wideguard: {
-		num: -469,
+		num: 469,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8444,7 +8444,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Steel-Type////
 	autotomize: {
-		num: -475,
+		num: 475,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8477,7 +8477,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	irondefense: {
-		num: -334,
+		num: 334,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8498,7 +8498,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	kingsshield: {
-		num: -588,
+		num: 588,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8559,7 +8559,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	metalsound: {
-		num: -319,
+		num: 319,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -8580,7 +8580,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	shiftgear: {
-		num: -508,
+		num: 508,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8603,7 +8603,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	////Water-Type////
 	aquaring: {
-		num: -392,
+		num: 392,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8631,7 +8631,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	raindance: {
-		num: -240,
+		num: 240,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
@@ -8650,7 +8650,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 
 	},
 	withdraw: {
-		num: -110,
+		num: 110,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
