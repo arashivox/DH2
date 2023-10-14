@@ -2181,7 +2181,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 95,
 		category: "Physical",
 		name: "Dig",
-		desc: "Digs underground turn 1, strikes turn 2. 20% chance to confuse the target.",
+		desc: "2-turn Attack. 20% chance to confuse the target.",
 		shortDesc: "2-turn Attack. 20% chance to confuse the target.",
 		pp: 10,
 		
@@ -4105,7 +4105,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 95,
 		category: "Physical",
 		name: "Dive",
-		desc: "Dives underwater turn 1, strikes turn 2. 20% chance to confuse the target.",
+		desc: "2-turn Attack. 20% chance to confuse the target.",
 		shortDesc: "2-turn Attack. 20% chance to confuse the target.",
 		pp: 10,
 		
