@@ -2353,6 +2353,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	},
 	thousandwaves: {
 		num: 615,
+		isNonstandard: null,
 		accuracy: 100,
 		basePower: 90,
 		category: "Physical",
