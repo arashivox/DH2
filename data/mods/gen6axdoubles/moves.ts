@@ -434,6 +434,23 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 
 	},
+	leechlife: {
+		num: 141,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Leech Life",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, heal: 1},
+		drain: [1, 2],
+		secondary: null,
+		target: "normal",
+		type: "Bug",
+		contestType: "Clever",
+		gen: 6,
+	},
+
 	megahorn: {
 		num: 224,
 		accuracy: 90,
@@ -594,6 +611,29 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 
 	},
+	suckerpunch: {
+		num: 389,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Sucker Punch",
+		pp: 5,
+		priority: 1,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onTry(source, target) {
+			const action = this.queue.willMove(target);
+			const move = action?.choice === 'move' ? action.move : null;
+			if (!move || (move.category === 'Status' && move.id !== 'mefirst') || target.volatiles['mustrecharge']) {
+				return false;
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Clever",
+		gen: 6,
+	},
+
 	////Dragon-Type////
 	dracometeor: {
 		num: 434,
@@ -2819,6 +2859,24 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 
 	},
+	feint: {
+		num: 364,
+		accuracy: 100,
+		basePower: 50,
+		category: "Physical",
+		name: "Feint",
+		pp: 10,
+		 priority: 2,
+		flags: {mirror: 1, noassist: 1, failcopycat: 1},
+		breaksProtect: true,
+		// Breaking protection implemented in scripts.js
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Clever",
+		gen: 6,
+	},
+
 	frustration: {
 		num: 218,
 		accuracy: 100,
@@ -4395,7 +4453,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Quiver Dance",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {snatch: 1, dance: 1},
@@ -4468,7 +4526,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Tail Glow",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {snatch: 1},
@@ -4582,7 +4640,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Nasty Plot",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {snatch: 1},
@@ -4676,7 +4734,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Dragon Dance",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {snatch: 1, dance: 1},
@@ -4965,7 +5023,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Geomancy",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {charge: 1, nonsky: 1, nosleeptalk: 1, failinstruct: 1},
@@ -5589,7 +5647,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Cotton Guard",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {snatch: 1},
@@ -6220,7 +6278,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Belly Drum",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {snatch: 1},
@@ -6410,7 +6468,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Encore",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, bypasssub: 1, failencore: 1},
@@ -6568,6 +6626,30 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 
 	},
+	growth: {
+		num: 74,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Growth",
+		pp: 2.5,
+		 priority: 0,
+		flags: {snatch: 1},
+		onModifyMove(move, pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) move.boosts = {atk: 2, spa: 2};
+		},
+		boosts: {
+			atk: 1,
+			spa: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		zMove: {boost: {spa: 1}},
+		contestType: "Beautiful",
+		gen: 6,
+	},
+
 	harden: {
 		num: 106,
 		accuracy: true,
@@ -6740,7 +6822,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Minimize",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {snatch: 1},
@@ -7179,7 +7261,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Shell Smash",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {snatch: 1},
@@ -7464,7 +7546,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Swords Dance",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {snatch: 1, dance: 1},
@@ -8670,7 +8752,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Shift Gear",
-		pp: 1,
+		pp: 0.625,
 		
 		priority: 0,
 		flags: {snatch: 1},

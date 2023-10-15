@@ -24848,6 +24848,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	rotommow: {
 		learnset: {
 			charge: ["6L1"],
+			leafstorm: ["6L1"],
 			trick: ["6L1"],
 			astonish: ["6L1"],
 			defog: ["6L1"],
@@ -24892,6 +24893,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	rotomwash: {
 		learnset: {
 			charge: ["6L1"],
+			hydropump: ["6L1"],
 			trick: ["6L1"],
 			astonish: ["6L1"],
 			defog: ["6L1"],
@@ -24936,6 +24938,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	rotomfrost: {
 		learnset: {
 			charge: ["6L1"],
+			blizzard: ["6L1"],
 			trick: ["6L1"],
 			astonish: ["6L1"],
 			defog: ["6L1"],
@@ -24980,6 +24983,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	rotomheat: {
 		learnset: {
 			charge: ["6L1"],
+			overheat: ["6L1"],
 			trick: ["6L1"],
 			astonish: ["6L1"],
 			defog: ["6L1"],
@@ -25024,6 +25028,7 @@ export const Learnsets: {[k: string]: ModdedLearnsetData} = {
 	rotomfan: {
 		learnset: {
 			charge: ["6L1"],
+			airslash: ["6L1"],
 			trick: ["6L1"],
 			astonish: ["6L1"],
 			defog: ["6L1"],

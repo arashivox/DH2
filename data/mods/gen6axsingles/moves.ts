@@ -7,8 +7,9 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Scorching Swarm",
 		desc: "20% Chance to burn the target.",
+		shortDesc: "20% Chance to burn the target.",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		noSketch: false,
 		flags: {protect: 1, mirror: 1},
@@ -32,11 +33,12 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Ground Pound",
 		desc: "20% Chance to make the target flinch.",
+		shortDesc: "20% Chance to make the target flinch.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		noSketch: false,
-		flags: {protect: 1, mirror: 1, nonsky: 1},
+		flags: {contact: 1, protect: 1, mirror: 1, nonsky: 1},
 		secondary: {
 			chance: 20,
 			volatileStatus: 'flinch',
@@ -58,8 +60,9 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Tussle",
 		desc: "10% Chance to paralyze the target.",
+		shortDesc: "10% Chance to paralyze the target.",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		noSketch: false,
 		flags: {contact: 1, protect: 1, mirror: 1 },
@@ -84,8 +87,9 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Fates Flourish",
 		desc: "Crit Stage increased by 1.",
+		shortDesc: "Crit Stage increased by 1.",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		noSketch: false,
 		flags: {contact: 1, protect: 1, mirror: 1},
@@ -107,8 +111,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 60,
 		category: "Physical",
 		name: "Breaking Swipe",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -127,8 +131,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 75,
 		category: "Physical",
 		name: "Spirit Break",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -142,13 +146,14 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 	},
 	dualwingbeat: {
+		inherit: true,
 		num: 814,
 		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
 		name: "Dual Wingbeat",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: 2,
@@ -165,7 +170,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Trailblaze",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -187,8 +192,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 70,
 		category: "Physical",
 		name: "Trop Kick",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -209,8 +214,9 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Headlong Rush",
 		desc: "Lowers the user's Attack and Defense by 1 stage.",
+		shortDesc: "Lowers the user's Attack and Defense by 1 stage.",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		self: {
@@ -231,7 +237,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Ice Hammer",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		self: {
@@ -252,7 +258,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Esper Wing",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		critRatio: 2,
@@ -275,7 +281,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Accelerock",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 1,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
@@ -291,7 +297,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Steel Beam",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		mindBlownRecoil: true,
@@ -316,7 +322,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Aqua Step",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, dance: 1},
 		secondary: {
@@ -339,7 +345,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Chilling Water",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -360,7 +366,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Wave Crash",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		recoil: [33, 100],
@@ -377,8 +383,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 60,
 		category: "Physical",
 		name: "Fell Stinger",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		onAfterMoveSecondarySelf(pokemon, target, move) {
@@ -406,7 +412,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Fury Cutter",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, slicing: 1},
 		condition: {
@@ -428,6 +434,23 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 
 	},
+	leechlife: {
+		num: 141,
+		accuracy: 100,
+		basePower: 80,
+		category: "Physical",
+		name: "Leech Life",
+		pp: 10,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, heal: 1},
+		drain: [1, 2],
+		secondary: null,
+		target: "normal",
+		type: "Bug",
+		contestType: "Clever",
+		gen: 6,
+	},
+
 	megahorn: {
 		num: 224,
 		accuracy: 90,
@@ -435,7 +458,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Megahorn",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
@@ -452,7 +475,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Pin Missile",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		multihit: [2, 5],
@@ -471,8 +494,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 35,
 		category: "Physical",
 		name: "Twineedle",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		multihit: 2,
@@ -493,8 +516,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 75,
 		category: "Physical",
 		name: "U-turn",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		selfSwitch: true,
@@ -511,8 +534,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 85,
 		category: "Physical",
 		name: "X-Scissor",
+		desc: "Crit Stage increased by 1.",
+		shortDesc: "Crit Stage increased by 1.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, slicing: 1},
 		secondary: null,
@@ -531,7 +556,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Night Daze",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -553,7 +578,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Night Slash",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, slicing: 1},
 		critRatio: 2,
@@ -570,8 +595,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 55,
 		category: "Special",
 		name: "Snarl",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, sound: 1, bypasssub: 1},
 		secondary: {
@@ -586,6 +611,29 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 
 	},
+	suckerpunch: {
+		num: 389,
+		accuracy: 100,
+		basePower: 70,
+		category: "Physical",
+		name: "Sucker Punch",
+		pp: 5,
+		priority: 1,
+		flags: {contact: 1, protect: 1, mirror: 1},
+		onTry(source, target) {
+			const action = this.queue.willMove(target);
+			const move = action?.choice === 'move' ? action.move : null;
+			if (!move || (move.category === 'Status' && move.id !== 'mefirst') || target.volatiles['mustrecharge']) {
+				return false;
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Clever",
+		gen: 6,
+	},
+
 	////Dragon-Type////
 	dracometeor: {
 		num: 434,
@@ -594,7 +642,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Draco Meteor",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		self: {
@@ -616,7 +664,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Dragon Rush",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -635,8 +683,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 60,
 		category: "Physical",
 		name: "Dragon Tail",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: -6,
 		flags: {contact: 1, protect: 1, mirror: 1, noassist: 1, failcopycat: 1},
 		forceSwitch: true,
@@ -652,8 +700,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 40,
 		category: "Physical",
 		name: "Dual Chop",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: 2,
@@ -672,7 +720,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Roar of Time",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {recharge: 1, protect: 1, mirror: 1},
 		self: {
@@ -692,7 +740,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Spacial Rend",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		critRatio: 2,
@@ -710,8 +758,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 50,
 		category: "Special",
 		name: "Charge Beam",
+		desc: "Always raise the user's Sp. Atk by 1 Stage.",
+		shortDesc: "Always raise the user's Sp. Atk by 1 Stage.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -734,8 +784,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 55,
 		category: "Special",
 		name: "Electroweb",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -756,8 +806,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 20,
 		category: "Physical",
 		name: "Nuzzle",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -777,7 +827,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Parabolic Charge",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, heal: 1},
 		drain: [1, 2],
@@ -794,8 +844,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 65,
 		category: "Physical",
 		name: "Thunder Fang",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {bite: 1, contact: 1, protect: 1, mirror: 1},
 		secondaries: [
@@ -819,8 +869,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 75,
 		category: "Special",
 		name: "Volt Switch",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		selfSwitch: true,
@@ -838,7 +888,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Zap Cannon",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {bullet: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -858,8 +908,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 60,
 		category: "Special",
 		name: "Disarming Voice",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, sound: 1, bypasssub: 1},
 		secondary: null,
@@ -875,8 +925,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 75,
 		category: "Special",
 		name: "Draining Kiss",
+		desc: "User recovers 50% of the damage dealt.",
+		shortDesc: "User recovers 50% of the damage dealt.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, heal: 1},
 		drain: [1, 2],
@@ -893,8 +945,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 130,
 		category: "Special",
 		name: "Light of Ruin",
+		desc: "Lowers the user's Sp. Atk by 2 Stages.",
+		shortDesc: "Lowers the user's Sp. Atk by 2 Stages.",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -918,7 +972,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Play Rough",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -940,8 +994,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 22,
 		category: "Physical",
 		name: "Arm Thrust",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: [2, 5],
@@ -958,8 +1012,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 60,
 		category: "Physical",
 		name: "Circle Throw",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: -6,
 		flags: {contact: 1, protect: 1, mirror: 1, noassist: 1, failcopycat: 1},
 		forceSwitch: true,
@@ -976,7 +1030,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Cross Chop",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		critRatio: 2,
@@ -994,7 +1048,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Double Kick",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: 2,
@@ -1013,7 +1067,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Flying Press",
 		pp: 10,
-		noPPBoosts: true,
+		
 		flags: {contact: 1, protect: 1, mirror: 1, gravity: 1, distance: 1, nonsky: 1},
 		onEffectiveness(typeMod, target, type, move) {
 			return typeMod + this.dex.getEffectiveness('Flying', type);
@@ -1034,7 +1088,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Focus Blast",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {bullet: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -1056,7 +1110,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Hammer Arm",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		self: {
@@ -1077,8 +1131,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 50,
 		category: "Physical",
 		name: "Power-Up Punch",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		secondary: {
@@ -1101,8 +1155,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 70,
 		category: "Physical",
 		name: "Rock Smash",
+		desc: "Always lowers the target's Defense by 1 Stage.",
+		shortDesc: "Always lowers the target's Defense by 1 Stage.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -1123,8 +1179,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 60,
 		category: "Physical",
 		name: "Rolling Kick",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -1143,8 +1199,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 85,
 		category: "Physical",
 		name: "Sky Uppercut",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		secondary: null,
@@ -1160,8 +1216,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 90,
 		category: "Physical",
 		name: "Submission",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		recoil: [1, 4],
@@ -1182,7 +1238,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Triple Kick",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: 3,
@@ -1199,8 +1255,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 70,
 		category: "Physical",
 		name: "Vital Throw",
+		desc: "This move does not check accuracy.",
+		shortDesc: "This move does not check accuracy.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
@@ -1218,7 +1276,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Blast Burn",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {recharge: 1, protect: 1, mirror: 1},
 		self: {
@@ -1238,7 +1296,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Blaze Kick",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		critRatio: 2,
@@ -1259,7 +1317,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Fire Blast",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -1278,8 +1336,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 65,
 		category: "Physical",
 		name: "Fire Fang",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {bite: 1, contact: 1, protect: 1, mirror: 1},
 		secondaries: [
@@ -1303,8 +1361,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 20,
 		category: "Special",
 		name: "Fire Spin",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		volatileStatus: 'partiallytrapped',
@@ -1321,8 +1379,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 80,
 		category: "Physical",
 		name: "Flame Wheel",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, defrost: 1},
 		secondary: {
@@ -1342,7 +1400,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Heat Wave",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, wind: 1},
 		secondary: {
@@ -1362,7 +1420,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Inferno",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -1382,7 +1440,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Overheat",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		self: {
@@ -1404,7 +1462,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Sacred Fire",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, defrost: 1},
 		secondary: {
@@ -1424,7 +1482,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "V-create",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		self: {
@@ -1450,7 +1508,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Aeroblast",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, distance: 1},
 		critRatio: 2,
@@ -1468,7 +1526,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Air Cutter",
 		pp: 25,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, slicing: 1, wind: 1},
 		critRatio: 2,
@@ -1485,8 +1543,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 85,
 		category: "Special",
 		name: "Air Slash",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, distance: 1, slicing: 1},
 		secondary: {
@@ -1506,7 +1564,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Bounce",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {
 			contact: 1, charge: 1, protect: 1, mirror: 1, gravity: 1, distance: 1, nosleeptalk: 1, noassist: 1, failinstruct: 1,
@@ -1552,8 +1610,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 65,
 		category: "Special",
 		name: "Chatter",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {
 			protect: 1, mirror: 1, sound: 1, distance: 1, bypasssub: 1, nosleeptalk: 1, noassist: 1,
@@ -1576,8 +1634,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 90,
 		category: "Physical",
 		name: "Drill Peck",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, distance: 1},
 		secondary: null,
@@ -1593,8 +1651,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 90,
 		category: "Physical",
 		name: "Fly",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {
 			contact: 1, charge: 1, protect: 1, mirror: 1, gravity: 1, distance: 1, nosleeptalk: 1, noassist: 1, failinstruct: 1,
@@ -1638,7 +1696,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Peck",
 		pp: 35,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, distance: 1},
 		secondary: null,
@@ -1655,7 +1713,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Sky Attack",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {charge: 1, protect: 1, mirror: 1, distance: 1, nosleeptalk: 1, failinstruct: 1},
 		critRatio: 2,
@@ -1687,7 +1745,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Sky Drop",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {
 			contact: 1, charge: 1, protect: 1, mirror: 1, gravity: 1, distance: 1, nosleeptalk: 1, noassist: 1, failinstruct: 1,
@@ -1804,7 +1862,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Astonish",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -1824,7 +1882,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Lick",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -1844,7 +1902,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Phantom Force",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, charge: 1, mirror: 1, nosleeptalk: 1, noassist: 1, failinstruct: 1},
 		breaksProtect: true,
@@ -1877,7 +1935,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Shadow Claw",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		critRatio: 2,
@@ -1894,8 +1952,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 80,
 		category: "Physical",
 		name: "Shadow Punch",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		secondary: null,
@@ -1913,7 +1971,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Absorb",
 		pp: 25,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, heal: 1},
 		drain: [1, 2],
@@ -1931,7 +1989,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Frenzy Plant",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {recharge: 1, protect: 1, mirror: 1, nonsky: 1},
 		self: {
@@ -1951,7 +2009,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Giga Drain",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, heal: 1},
 		drain: [1, 2],
@@ -1969,7 +2027,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Horn Leech",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, heal: 1},
 		drain: [1, 2],
@@ -1987,7 +2045,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Leaf Storm",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		self: {
@@ -2009,7 +2067,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Leaf Tornado",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -2030,8 +2088,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 60,
 		category: "Special",
 		name: "Mega Drain",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, heal: 1},
 		drain: [1, 2],
@@ -2049,8 +2107,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 90,
 		category: "Special",
 		name: "Petal Blizzard",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, wind: 1},
 		secondary: null,
@@ -2067,7 +2125,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Power Whip",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
@@ -2084,7 +2142,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Razor Leaf",
 		pp: 25,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, slicing: 1},
 		critRatio: 2,
@@ -2102,8 +2160,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 65,
 		category: "Physical",
 		name: "Bone Club",
-		pp: 15,
-		noPPBoosts: true,
+		desc: "20% chance to make the target flinch.",
+		shortDesc: "20% chance to make the target flinch.",
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -2123,7 +2183,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Bone Rush",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		multihit: [2, 5],
@@ -2143,7 +2203,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Bonemerang",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		multihit: 2,
@@ -2161,8 +2221,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 95,
 		category: "Physical",
 		name: "Dig",
+		desc: "2-turn Attack. 20% chance to confuse the target.",
+		shortDesc: "2-turn Attack. 20% chance to confuse the target.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, charge: 1, protect: 1, mirror: 1, nonsky: 1, nosleeptalk: 1, noassist: 1, failinstruct: 1},
 		onTryMove(attacker, defender, move) {
@@ -2210,7 +2272,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Drill Run",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		critRatio: 2,
@@ -2227,8 +2289,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 160,
 		category: "Physical",
 		name: "Fissure",
+		desc: "User cannot move next turn.",
+		shortDesc: "User cannot move next turn.",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {recharge: 1, protect: 1, mirror: 1, nonsky: 1},
 		self: {
@@ -2247,8 +2311,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 80,
 		category: "Special",
 		name: "Mud Bomb",
+		desc: "20 % chance to lower target's accuracy.",
+		shortDesc: "20% chance to lower target's accuracy.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {bullet: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -2269,8 +2335,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 55,
 		category: "Special",
 		name: "Mud Shot",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -2291,8 +2357,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 35,
 		category: "Special",
 		name: "Mud-Slap",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -2313,8 +2379,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 20,
 		category: "Physical",
 		name: "Sand Tomb",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		volatileStatus: 'partiallytrapped',
@@ -2325,6 +2391,26 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 
 	},
+	thousandwaves: {
+		num: 615,
+		isNonstandard: null,
+		accuracy: 100,
+		basePower: 90,
+		category: "Physical",
+		name: "Thousand Waves",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, nonsky: 1},
+		onHit(target, source, move) {
+			if (source.isActive) target.addVolatile('trapped', source, move, 'trapper');
+		},
+		secondary: null,
+		target: "allAdjacentFoes",
+		type: "Ground",
+		contestType: "Tough",
+		gen: 6,
+	},
+
 	////Ice-Type////
 	freezedry: {
 		num: 573,
@@ -2333,7 +2419,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Freeze-Dry",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		onEffectiveness(typeMod, target, type) {
@@ -2356,7 +2442,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Freeze Shock",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {charge: 1, protect: 1, mirror: 1, nosleeptalk: 1, failinstruct: 1},
 		onTryMove(attacker, defender, move) {
@@ -2404,7 +2490,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Glaciate",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -2426,7 +2512,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Ice Burn",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {charge: 1, protect: 1, mirror: 1, nosleeptalk: 1, failinstruct: 1},
 		onTryMove(attacker, defender, move) {
@@ -2456,8 +2542,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 65,
 		category: "Physical",
 		name: "Ice Fang",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {bite: 1, contact: 1, protect: 1, mirror: 1},
 		secondaries: [
@@ -2482,7 +2568,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Icicle Crash",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -2501,8 +2587,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 55,
 		category: "Special",
 		name: "Icy Wind",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, wind: 1},
 		secondary: {
@@ -2523,8 +2609,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 160,
 		category: "Special",
 		name: "Sheer Cold",
+		desc: "User cannot move next turn.",
+		shortDesc: "User cannot move next turn.",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {recharge: 1, protect: 1, mirror: 1},
 		self: {
@@ -2546,7 +2634,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Barrage",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {bullet: 1, protect: 1, mirror: 1},
 		multihit: [2, 5],
@@ -2564,7 +2652,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Bind",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		volatileStatus: 'partiallytrapped',
@@ -2581,8 +2669,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 40,
 		category: "Physical",
 		name: "Comet Punch",
-		pp: 15,
-		noPPBoosts: true,
+		desc: "The target is hit with a two-punch combo. This may also raise the user's Attack stat.",
+		shortDesc: "Hits 2-times. 5% to +1 to user's Attack Stage.",
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		secondary: {
@@ -2606,8 +2696,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 50,
 		category: "Physical",
 		name: "Constrict",
+		desc: "Always lowers target's Speed by 1 Stage.",
+		shortDesc: "Always lowers target's Speed by 1 Stage.",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -2628,8 +2720,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 80,
 		category: "Physical",
 		name: "Crush Claw",
+		desc: "Always lowers target's Defense by 1 Stage.",
+		shortDesc: "Always lowers target's Defense by 1 Stage.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -2650,8 +2744,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 50,
 		category: "Physical",
 		name: "Cut",
+		desc: "This attack always results in a critical hit.",
+		shortDesc: "This attack always results in a critical hit.",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, slicing: 1},
 		willCrit: true,
@@ -2669,7 +2765,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Dizzy Punch",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		secondary: {
@@ -2689,7 +2785,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Double Hit",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: 2,
@@ -2709,7 +2805,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Double Slap",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: [2, 5],
@@ -2727,7 +2823,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Egg Bomb",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {bullet: 1, protect: 1, mirror: 1},
 		secondary: null,
@@ -2743,8 +2839,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 40,
 		category: "Physical",
 		name: "Fake Out",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 3,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		onTry(source) {
@@ -2763,6 +2859,24 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 
 	},
+	feint: {
+		num: 364,
+		accuracy: 100,
+		basePower: 50,
+		category: "Physical",
+		name: "Feint",
+		pp: 10,
+		 priority: 2,
+		flags: {mirror: 1, noassist: 1, failcopycat: 1},
+		breaksProtect: true,
+		// Breaking protection implemented in scripts.js
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Clever",
+		gen: 6,
+	},
+
 	frustration: {
 		num: 218,
 		accuracy: 100,
@@ -2773,7 +2887,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Frustration",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
@@ -2792,7 +2906,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Fury Attack",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: [2, 5],
@@ -2809,8 +2923,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 22,
 		category: "Physical",
 		name: "Fury Swipes",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: [2, 5],
@@ -2829,7 +2943,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Giga Impact",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, recharge: 1, protect: 1, mirror: 1},
 		self: {
@@ -2849,7 +2963,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Guillotine",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {recharge: 1 ,contact: 1, protect: 1, mirror: 1},
 		self: {
@@ -2871,7 +2985,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Horn Drill",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {recharge: 1 ,contact: 1, protect: 1, mirror: 1},
 		self: {
@@ -2893,7 +3007,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Hyper Beam",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {recharge: 1, protect: 1, mirror: 1},
 		self: {
@@ -2912,8 +3026,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 90,
 		category: "Physical",
 		name: "Hyper Fang",
-		pp: 15,
-		noPPBoosts: true,
+		desc: "30% chance to make the target flinch.",
+		shortDesc: "30% chance to make the target flinch.",
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {bite: 1, contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -2932,8 +3048,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 120,
 		category: "Physical",
 		name: "Mega Kick",
+		desc: "10% chance to raise user's Attack by 1 Stage.",
+		shortDesc: "10% chance to raise the user's Attack by 1 Stage.",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -2956,8 +3074,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 90,
 		category: "Physical",
 		name: "Mega Punch",
-		pp: 15,
-		noPPBoosts: true,
+		desc: "20% chance to make the target flinch.",
+		shortDesc: "20% chance to make the target flinch.",
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		secondary: {
@@ -2977,7 +3097,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Pay Day",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: null,
@@ -2993,8 +3113,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 70,
 		category: "Physical",
 		name: "Rage",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		self: {
@@ -3028,8 +3148,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 50,
 		category: "Physical",
 		name: "Rapid Spin",
-		pp: 4,
-		noPPBoosts: true,
+		desc: "Free user from hazards/bind/Leech Seed; raises user's Speed by 1 Stage.",
+		shortDesc: "Free user from hazards/bind/Leech Seed; raises user's Speed by 1 Stage.",
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		onAfterHit(target, pokemon, move) {
@@ -3084,8 +3206,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 120,
 		category: "Special",
 		name: "Razor Wind",
+		desc: "Crit Stage increased by 2.",
+		shortDesc: "Crit Stage increased by 2.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {charge: 1, protect: 1, mirror: 1, nosleeptalk: 1, failinstruct: 1},
 		onTryMove(attacker, defender, move) {
@@ -3117,7 +3241,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Return",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
@@ -3136,7 +3260,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Rock Climb",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -3156,7 +3280,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Slam",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, nonsky: 1},
 		secondary: null,
@@ -3173,7 +3297,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Slash",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, slicing: 1},
 		critRatio: 2,
@@ -3190,8 +3314,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 70,
 		category: "Special",
 		name: "Snore",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, sound: 1, bypasssub: 1},
 		sleepUsable: true,
@@ -3214,8 +3338,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 22,
 		category: "Physical",
 		name: "Spike Cannon",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		multihit: [2, 5],
@@ -3233,8 +3357,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 100,
 		category: "Physical",
 		name: "Strength",
-		pp: 15,
-		noPPBoosts: true,
+		desc: "Lowers user's Defense and Sp. Defense by 1 Stage.",
+		shortDesc: "Lowers user's Defense and Sp. Defense by 1 Stage.",
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		self: {
@@ -3259,7 +3385,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Super Fang",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
@@ -3276,7 +3402,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Tackle",
 		pp: 35,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
@@ -3293,7 +3419,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Tail Slap",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: [2, 5],
@@ -3312,8 +3438,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 90,
 		category: "Physical",
 		name: "Take Down",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		recoil: [1, 4],
@@ -3331,7 +3457,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Tri Attack",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -3360,7 +3486,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Wrap",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		volatileStatus: 'partiallytrapped',
@@ -3379,7 +3505,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Belch",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, failmefirst: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failinstruct: 1, failmimic: 1},
 		onDisableMove(pokemon) {
@@ -3399,7 +3525,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Cross Poison",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, slicing: 1},
 		secondary: {
@@ -3420,7 +3546,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Gunk Shot",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -3440,7 +3566,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Poison Sting",
 		pp: 35,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -3460,7 +3586,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Poison Tail",
 		pp: 25,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		critRatio: 2,
@@ -3481,7 +3607,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Sludge",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -3501,7 +3627,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Smog",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -3521,8 +3647,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 120,
 		category: "Special",
 		name: "Dream Eater",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, heal: 1},
 		drain: [1, 2],
@@ -3542,8 +3668,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 95,
 		category: "Special",
 		name: "Heart Stamp",
+		desc: "10% chance to make the target flinch.",
+		shortDesc: "10% chance to make the target flinch.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -3563,7 +3691,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Hyperspace Hole",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {mirror: 1, bypasssub: 1},
 		breaksProtect: true,
@@ -3581,7 +3709,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Psycho Boost",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		self: {
@@ -3603,7 +3731,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Psycho Cut",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, slicing: 1},
 		critRatio: 2,
@@ -3626,7 +3754,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Stored Power",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: null,
@@ -3644,8 +3772,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 80,
 		category: "Physical",
 		name: "Zen Headbutt",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -3666,7 +3794,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Ancient Power",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -3693,8 +3821,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 95,
 		category: "Special",
 		name: "Diamond Storm",
-		pp: 2,
-		noPPBoosts: true,
+		desc: "Always raises user's Defense by 2 Stages.",
+		shortDesc: "Always raises user's Defense by 2 Stages.",
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		self: {
@@ -3718,7 +3848,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Head Smash",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		recoil: [1, 2],
@@ -3735,8 +3865,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 80,
 		category: "Special",
 		name: "Power Gem",
-		pp: 15,
-		noPPBoosts: true,
+		desc: "10% chance to lower target's Sp. Defense by 1 Stage.",
+		shortDesc: "10 chance to lower target's Sp. Defense by 1 Stage.",
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary:{
@@ -3758,7 +3890,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Rock Blast",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {bullet: 1, protect: 1, mirror: 1},
 		multihit: [2, 5],
@@ -3777,8 +3909,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 50,
 		category: "Physical",
 		name: "Rock Throw",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: null,
@@ -3794,8 +3926,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 60,
 		category: "Physical",
 		name: "Rock Tomb",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -3817,7 +3949,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Rock Wrecker",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {bullet: 1, recharge: 1, protect: 1, mirror: 1},
 		self: {
@@ -3837,7 +3969,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Stone Edge",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		critRatio: 2,
@@ -3855,8 +3987,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 50,
 		category: "Physical",
 		name: "Gear Grind",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		multihit: 2,
@@ -3875,8 +4007,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 100,
 		category: "Physical",
 		name: "Iron Tail",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -3898,7 +4030,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Metal Claw",
 		pp: 35,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -3922,7 +4054,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Meteor Mash",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, punch: 1},
 		secondary: {
@@ -3946,7 +4078,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Mirror Shot",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -3967,8 +4099,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 85,
 		category: "Physical",
 		name: "Steel Wing",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -3993,7 +4125,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Physical",
 		name: "Aqua Tail",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		secondary: null,
@@ -4009,8 +4141,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 65,
 		category: "Special",
 		name: "Bubble Beam",
+		desc: "30% chance to lower target's Speed by 1 Stage.",
+		shortDesc: "30% chance to lower target's Speed by 1 Stage.",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: {
@@ -4031,8 +4165,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 20,
 		category: "Physical",
 		name: "Clamp",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
 		volatileStatus: 'partiallytrapped',
@@ -4049,8 +4183,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 95,
 		category: "Physical",
 		name: "Dive",
+		desc: "2-turn Attack. 20% chance to confuse the target.",
+		shortDesc: "2-turn Attack. 20% chance to confuse the target.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {
 			contact: 1, charge: 1, protect: 1, mirror: 1, nonsky: 1, allyanim: 1, nosleeptalk: 1, noassist: 1, failinstruct: 1,
@@ -4104,7 +4240,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Hydro Cannon",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {recharge: 1, protect: 1, mirror: 1},
 		self: {
@@ -4124,7 +4260,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Hydro Pump",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		secondary: null,
@@ -4141,7 +4277,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Muddy Water",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, nonsky: 1},
 		secondary: {
@@ -4162,8 +4298,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 75,
 		category: "Special",
 		name: "Octazooka",
+		desc: "Always lowers target's accuracy by 1 Stage.",
+		shortDesc: "Always lowers target's accuracy by 1 Stage.",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {bullet: 1, protect: 1, mirror: 1},
 		secondary: {
@@ -4183,8 +4321,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 70,
 		category: "Physical",
 		name: "Razor Shell",
+		desc: "Always lowers target's Defense by 1 Stage.",
+		shortDesc: "Always lower's target's Defense by 1 Stage.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, slicing: 1},
 		secondary: {
@@ -4205,7 +4345,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Special",
 		name: "Steam Eruption",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, defrost: 1},
 		thawsTarget: true,
@@ -4232,8 +4372,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		},
 		category: "Special",
 		name: "Water Shuriken",
+		desc: "Prio increased by 1; always hits 3-times.",
+		shortDesc: "Prio increased by 1; always hits 3-times.",
 		pp: 10,
-		noPPBoosts: true,
+		
 		priority: 1,
 		flags: {protect: 1, mirror: 1},
 		multihit: 3,
@@ -4250,8 +4392,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 20,
 		category: "Special",
 		name: "Whirlpool",
-		pp: 15,
-		noPPBoosts: true,
+		pp: 9.375,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		volatileStatus: 'partiallytrapped',
@@ -4270,8 +4412,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Defend Order",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -4292,8 +4434,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Heal Order",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		heal: [1, 2],
@@ -4311,8 +4453,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Quiver Dance",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {snatch: 1, dance: 1},
 		boosts: {
@@ -4334,8 +4476,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Sticky Web",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {reflectable: 1},
 		sideCondition: 'stickyweb',
@@ -4363,8 +4505,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "String Shot",
-		pp: 8,
-		noPPBoosts: true,
+		pp: 7.5,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		boosts: {
@@ -4384,8 +4526,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Tail Glow",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -4406,8 +4548,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Dark Void",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		status: 'slp',
@@ -4434,7 +4576,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Fake Tears",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1},
 		boosts: {
@@ -4454,8 +4596,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Flatter",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1},
 		volatileStatus: 'confusion',
@@ -4476,8 +4618,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Hone Claws",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -4498,8 +4640,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Nasty Plot",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -4519,8 +4661,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Parting Shot",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, sound: 1, bypasssub: 1},
 		onHit(target, source, move) {
@@ -4544,8 +4686,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Taunt",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, bypasssub: 1},
 		volatileStatus: 'taunt',
@@ -4592,8 +4734,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Dragon Dance",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {snatch: 1, dance: 1},
 		boosts: {
@@ -4615,8 +4757,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Charge",
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		volatileStatus: 'charge',
@@ -4674,7 +4816,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Eerie Impulse",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		boosts: {
@@ -4694,8 +4836,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Electric Terrain",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {nonsky: 1},
 		terrain: 'electricterrain',
@@ -4756,8 +4898,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Magnet Rise",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1, gravity: 1},
 		volatileStatus: 'magnetrise',
@@ -4797,8 +4939,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Thunder Wave",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		status: 'par',
@@ -4818,8 +4960,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Aromatic Mist",
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {bypasssub: 1},
 		boosts: {
@@ -4839,8 +4981,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Baby-Doll Eyes",
-		pp: 8,
-		noPPBoosts: true,
+		pp: 7.5,
+		
 		priority: 1,
 		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1},
 		boosts: {
@@ -4861,7 +5003,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Charm",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1},
 		boosts: {
@@ -4881,8 +5023,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Geomancy",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {charge: 1, nonsky: 1, nosleeptalk: 1, failinstruct: 1},
 		onTryMove(attacker, defender, move) {
@@ -4915,8 +5057,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Flower Shield",
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {distance: 1},
 		onHitField(t, source, move) {
@@ -4951,8 +5093,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Misty Terrain",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {nonsky: 1},
 		terrain: 'mistyterrain',
@@ -5012,8 +5154,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Moonlight",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		onHit(pokemon) {
@@ -5050,8 +5192,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Sweet Kiss",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		volatileStatus: 'confusion',
@@ -5070,8 +5212,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Bulk Up",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -5092,8 +5234,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Detect",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 4,
 		flags: {noassist: 1, failcopycat: 1},
 		stallingMove: true,
@@ -5118,8 +5260,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Mat Block",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1, nonsky: 1, noassist: 1, failcopycat: 1},
 		stallingMove: true,
@@ -5169,8 +5311,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Quick Guard",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 3,
 		flags: {snatch: 1},
 		sideCondition: 'quickguard',
@@ -5221,8 +5363,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Sunny Day",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {},
 		weather: 'sunnyday',
@@ -5240,8 +5382,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Will-O-Wisp",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		status: 'brn',
@@ -5260,8 +5402,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Defog",
-		pp: 8,
-		noPPBoosts: true,
+		pp: 7.5,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, bypasssub: 1},
 		onHit(target, source, move) {
@@ -5304,7 +5446,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Feather Dance",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1, dance: 1},
 		boosts: {
@@ -5324,8 +5466,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Roost",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		heal: [1, 2],
@@ -5362,8 +5504,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Tailwind",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1, wind: 1},
 		sideCondition: 'tailwind',
@@ -5407,8 +5549,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Confuse Ray",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		volatileStatus: 'confusion',
@@ -5426,8 +5568,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Curse",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {bypasssub: 1},
 		volatileStatus: 'curse',
@@ -5475,8 +5617,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Aromatherapy",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1, distance: 1},
 		onHit(target, source, move) {
@@ -5505,8 +5647,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Cotton Guard",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -5527,7 +5669,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Cotton Spore",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {powder: 1, protect: 1, reflectable: 1, mirror: 1},
 		boosts: {
@@ -5547,8 +5689,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Grass Whistle",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, sound: 1, bypasssub: 1},
 		status: 'slp',
@@ -5566,8 +5708,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Grassy Terrain",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {nonsky: 1},
 		terrain: 'grassyterrain',
@@ -5627,8 +5769,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Leech Seed",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		volatileStatus: 'leechseed',
@@ -5666,8 +5808,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Sleep Powder",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {powder: 1, protect: 1, reflectable: 1, mirror: 1},
 		status: 'slp',
@@ -5685,8 +5827,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Spiky Shield",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 4,
 		flags: {noassist: 1, failcopycat: 1},
 		stallingMove: true,
@@ -5746,8 +5888,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Spore",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {powder: 1, protect: 1, reflectable: 1, mirror: 1},
 		status: 'slp',
@@ -5765,8 +5907,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Stun Spore",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {powder: 1, protect: 1, reflectable: 1, mirror: 1},
 		status: 'par',
@@ -5784,8 +5926,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Synthesis",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		onHit(pokemon) {
@@ -5825,8 +5967,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Rototiller",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {distance: 1, nonsky: 1},
 		onHitField(target, source) {
@@ -5862,8 +6004,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Sand Attack",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		boosts: {
@@ -5883,8 +6025,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Spikes",
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {reflectable: 1, nonsky: 1, mustpressure: 1},
 		sideCondition: 'spikes',
@@ -5920,8 +6062,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Hail",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {},
 		weather: 'hail',
@@ -5939,8 +6081,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Haze",
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {bypasssub: 1},
 		onHitField() {
@@ -5963,8 +6105,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Mist",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		sideCondition: 'mist',
@@ -6010,8 +6152,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Acupressure",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {},
 		onHit(target) {
@@ -6045,8 +6187,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Attract",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, bypasssub: 1},
 		volatileStatus: 'attract',
@@ -6105,8 +6247,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Baton Pass",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {},
 		onHit(target) {
@@ -6136,8 +6278,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Belly Drum",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		onHit(target) {
@@ -6161,7 +6303,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Captivate",
-		noPPBoosts: true,
+		
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
@@ -6185,8 +6327,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Confide",
-		noPPBoosts: true,
-		pp: 8,
+		
+		pp: 7.5,
 		priority: 0,
 		flags: {reflectable: 1, mirror: 1, sound: 1, bypasssub: 1},
 		boosts: {
@@ -6206,8 +6348,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Defense Curl",
-		noPPBoosts: true,
-		pp: 4,
+		
+		pp: 2.5,
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -6232,8 +6374,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Disable",
-		noPPBoosts: true,
-		pp: 3,
+		
+		pp: 1.875,
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, bypasssub: 1},
 		volatileStatus: 'disable',
@@ -6305,8 +6447,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Double Team",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -6326,8 +6468,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Encore",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, bypasssub: 1, failencore: 1},
 		volatileStatus: 'encore',
@@ -6389,8 +6531,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Flash",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		boosts: {
@@ -6410,8 +6552,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Follow Me",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 2,
 		flags: {noassist: 1, failcopycat: 1},
 		volatileStatus: 'followme',
@@ -6450,8 +6592,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Glare",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		status: 'par',
@@ -6469,8 +6611,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Growl",
-		pp: 8,
-		noPPBoosts: true,
+		pp: 7.5,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, sound: 1, bypasssub: 1},
 		boosts: {
@@ -6484,14 +6626,38 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		gen: 6,
 
 	},
+	growth: {
+		num: 74,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Growth",
+		pp: 2.5,
+		 priority: 0,
+		flags: {snatch: 1},
+		onModifyMove(move, pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) move.boosts = {atk: 2, spa: 2};
+		},
+		boosts: {
+			atk: 1,
+			spa: 1,
+		},
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		zMove: {boost: {spa: 1}},
+		contestType: "Beautiful",
+		gen: 6,
+	},
+
 	harden: {
 		num: 106,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
 		name: "Harden",
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -6511,8 +6677,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Heal Bell",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1, sound: 1, distance: 1, bypasssub: 1},
 		onHit(target, source) {
@@ -6539,7 +6705,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Helping Hand",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 5,
 		flags: {bypasssub: 1, noassist: 1, failcopycat: 1},
 		volatileStatus: 'helpinghand',
@@ -6576,8 +6742,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Howl",
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {snatch: 1, sound: 1},
 		boosts: {
@@ -6597,8 +6763,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Leer",
-		pp: 8,
-		noPPBoosts: true,
+		pp: 7.5,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		boosts: {
@@ -6618,8 +6784,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Lovely Kiss",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		status: 'slp',
@@ -6637,8 +6803,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Milk Drink",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		heal: [1, 2],
@@ -6656,8 +6822,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Minimize",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		volatileStatus: 'minimize',
@@ -6699,8 +6865,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Morning Sun",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		onHit(pokemon) {
@@ -6740,7 +6906,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Noble Roar",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, sound: 1, bypasssub: 1},
 		boosts: {
@@ -6761,8 +6927,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Pain Split",
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, allyanim: 1},
 		onHit(target, pokemon) {
@@ -6788,8 +6954,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Perish Song",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {sound: 1, distance: 1, bypasssub: 1},
 		onHitField(target, source, move) {
@@ -6837,8 +7003,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Play Nice",
-		pp: 8,
-		noPPBoosts: true,
+		pp: 7.5,
+		
 		priority: 0,
 		flags: {reflectable: 1, mirror: 1, bypasssub: 1},
 		boosts: {
@@ -6858,8 +7024,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Protect",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 4,
 		flags: {noassist: 1, failcopycat: 1},
 		stallingMove: true,
@@ -6911,8 +7077,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Recover",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		heal: [1, 2],
@@ -6931,7 +7097,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Refresh",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		onHit(pokemon) {
@@ -6952,8 +7118,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Roar",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: -6,
 		flags: {reflectable: 1, mirror: 1, sound: 1, bypasssub: 1, allyanim: 1, noassist: 1, failcopycat: 1},
 		forceSwitch: true,
@@ -6971,8 +7137,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Safeguard",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		sideCondition: 'safeguard',
@@ -7033,7 +7199,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Scary Face",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1},
 		boosts: {
@@ -7054,7 +7220,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Screech",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, sound: 1, bypasssub: 1, allyanim: 1},
 		boosts: {
@@ -7074,8 +7240,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Sharpen",
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -7095,8 +7261,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Shell Smash",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -7120,8 +7286,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Sing",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, sound: 1, bypasssub: 1},
 		status: 'slp',
@@ -7139,8 +7305,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Slack Off",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		heal: [1, 2],
@@ -7158,8 +7324,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Smokescreen",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		boosts: {
@@ -7179,8 +7345,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Soft-Boiled",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		heal: [1, 2],
@@ -7198,8 +7364,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Stockpile",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		onTry(source) {
@@ -7255,8 +7421,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Substitute",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1, nonsky: 1},
 		volatileStatus: 'substitute',
@@ -7340,8 +7506,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Supersonic",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, sound: 1, bypasssub: 1},
 		volatileStatus: 'confusion',
@@ -7360,7 +7526,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Sweet Scent",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		boosts: {
@@ -7380,8 +7546,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Swords Dance",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {snatch: 1, dance: 1},
 		boosts: {
@@ -7401,8 +7567,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Tail Whip",
-		pp: 8,
-		noPPBoosts: true,
+		pp: 7.5,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		boosts: {
@@ -7422,8 +7588,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Teeter Dance",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1, dance: 1},
 		volatileStatus: 'confusion',
@@ -7442,7 +7608,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Tickle",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, allyanim: 1},
 		boosts: {
@@ -7463,8 +7629,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Whirlwind",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: -6,
 		flags: {reflectable: 1, mirror: 1, bypasssub: 1, allyanim: 1, wind: 1, noassist: 1, failcopycat: 1},
 		forceSwitch: true,
@@ -7482,8 +7648,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Wish",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		slotCondition: 'Wish',
@@ -7516,8 +7682,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Work Up",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -7538,8 +7704,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Yawn",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		volatileStatus: 'yawn',
@@ -7575,8 +7741,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Acid Armor",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -7596,8 +7762,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Coil",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -7619,8 +7785,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Poison Gas",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		status: 'psn',
@@ -7638,8 +7804,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Poison Powder",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {powder: 1, protect: 1, reflectable: 1, mirror: 1},
 		status: 'psn',
@@ -7657,8 +7823,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Toxic",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		// No Guard-like effect for Poison-type users implemented in Scripts#tryMoveHit
@@ -7677,8 +7843,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Toxic Spikes",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {reflectable: 1, nonsky: 1, mustpressure: 1},
 		sideCondition: 'toxicspikes',
@@ -7722,7 +7888,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Venom Drench",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		onHit(target, source, move) {
@@ -7746,8 +7912,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Agility",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -7767,8 +7933,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Ally Switch",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 1,
 		flags: {},
 		stallingMove: true,
@@ -7796,8 +7962,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Amnesia",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -7817,8 +7983,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Barrier",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -7838,8 +8004,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Calm Mind",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -7860,8 +8026,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Cosmic Power",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -7882,8 +8048,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Gravity",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {nonsky: 1},
 		pseudoWeather: 'gravity',
@@ -7975,8 +8141,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Heal Block",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		volatileStatus: 'healblock',
@@ -8042,8 +8208,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Hypnosis",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		status: 'slp',
@@ -8061,8 +8227,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Kinesis",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		boosts: {
@@ -8082,8 +8248,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Light Screen",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		sideCondition: 'lightscreen',
@@ -8127,8 +8293,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Meditate",
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -8148,8 +8314,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Psycho Shift",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		onTryHit(target, source, move) {
@@ -8175,8 +8341,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Reflect",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		sideCondition: 'reflect',
@@ -8220,8 +8386,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Rest",
-		pp: 3,
-		noPPBoosts: true,
+		pp: 1.875,
+		
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
 		onTry(source) {
@@ -8257,8 +8423,10 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Teleport",
+		desc: "Prio decreased by 6; User switches out.",
+		shortDesc: "Prio decreased by 6; User switches out.",
 		pp: 20,
-		noPPBoosts: true,
+		
 		priority: -6,
 		flags: {},
 		onTry(source) {
@@ -8279,8 +8447,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Trick Room",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: -7,
 		flags: {mirror: 1},
 		pseudoWeather: 'trickroom',
@@ -8325,8 +8493,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Rock Polish",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -8346,8 +8514,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Sandstorm",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {wind: 1},
 		weather: 'Sandstorm',
@@ -8365,8 +8533,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Stealth Rock",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {reflectable: 1, mustpressure: 1},
 		sideCondition: 'stealthrock',
@@ -8395,8 +8563,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Wide Guard",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 3,
 		flags: {snatch: 1},
 		sideCondition: 'wideguard',
@@ -8448,8 +8616,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Autotomize",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		onTryHit(pokemon) {
@@ -8481,8 +8649,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Iron Defense",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -8502,8 +8670,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "King's Shield",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 4,
 		flags: {noassist: 1, failcopycat: 1, failinstruct: 1},
 		stallingMove: true,
@@ -8564,7 +8732,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Metal Sound",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1, sound: 1, bypasssub: 1, allyanim: 1},
 		boosts: {
@@ -8584,8 +8752,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Shift Gear",
-		pp: 1,
-		noPPBoosts: true,
+		pp: 0.625,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
@@ -8608,7 +8776,7 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		category: "Status",
 		name: "Aqua Ring",
 		pp: 5,
-		noPPBoosts: true,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		volatileStatus: 'aquaring',
@@ -8635,8 +8803,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Rain Dance",
-		pp: 2,
-		noPPBoosts: true,
+		pp: 1.25,
+		
 		priority: 0,
 		flags: {},
 		weather: 'RainDance',
@@ -8654,8 +8822,8 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		basePower: 0,
 		category: "Status",
 		name: "Withdraw",
-		pp: 4,
-		noPPBoosts: true,
+		pp: 2.5,
+		
 		priority: 0,
 		flags: {snatch: 1},
 		boosts: {
