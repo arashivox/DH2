@@ -4553,14 +4553,14 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		status: 'slp',
-		onTry(source, target, move) {
-			if (source.species.name === 'Darkrai' || move.hasBounced) {
-				return;
-			}
-			this.add('-fail', source, 'move: Dark Void');
-			this.hint("Only a Pokemon whose form is Darkrai can use this move.");
-			return null;
-		},
+		// onTry(source, target, move) {
+		// 	if (source.species.name === 'Darkrai' || move.hasBounced) {
+		// 		return;
+		// 	}
+		// 	this.add('-fail', source, 'move: Dark Void');
+		// 	this.hint("Only a Pokemon whose form is Darkrai can use this move.");
+		// 	return null;
+		// },
 		secondary: null,
 		target: "allAdjacentFoes",
 		type: "Dark",

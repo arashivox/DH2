@@ -8,6 +8,7 @@
     "preact": "^10.5.15",
     "preact-render-to-string": "^5.1.19",
     "probe-image-size": "^5.0.0",
+    "showdown-emoji": "^3.0.0",
     "sockjs": "^0.3.21"
   },
   "optionalDependencies": {
