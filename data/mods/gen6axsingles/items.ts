@@ -13,6 +13,7 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 	},	
 	bigroot: {
 		name: "Big Root",
+		desc: "Holder gains 1.75x HP from draining moves.",
 		shortDesc: "Holder gains 1.75x HP from draining moves.",
 		spritenum: 29,
 		fling: {
