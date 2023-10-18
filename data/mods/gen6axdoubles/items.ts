@@ -12,14 +12,9 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		desc: "If held by a Rayquaza, this item allows it to Mega Evolve in battle.",
 	},	
 	bigroot: {
-		name: "Big Root",
+		inherit: true,
 		desc: "Holder gains 1.75x HP from draining moves.",
 		shortDesc: "Holder gains 1.75x HP from draining moves.",
-		spritenum: 29,
-		fling: {
-		basePower: 10,
-		},
-		onTryHealPriority: 1,
 		onTryHeal(damage, target, source, effect) {
 		const heals = ['drain', 'leechseed', 'ingrain', 'aquaring', 'strengthsap'];
 		if (heals.includes(effect.id)) {
@@ -29,12 +24,9 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 	gen: 6,
 },
 	shellbell: {
-		name: "Shell Bell",
+		inherit: true,
+		desc: "After an attack, holder gains 1/4 of the damage in HP dealt to other Pokemon.",
 		shortDesc: "After an attack, holder gains 1/4 of the damage in HP dealt to other Pokemon.",
-		spritenum: 438,
-		fling: {
-		basePower: 30,
-		},
 		onAfterMoveSecondarySelfPriority: -1,
 		onAfterMoveSecondarySelf(pokemon, target, move) {
 		if (move.totalDamage && !pokemon.forceSwitchFlag) {
