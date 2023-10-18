@@ -26,8 +26,7 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 			return this.chainModify([7168, 4096]);
 		}
 	},
-	num: 296,
-	gen: 4,
+	gen: 6,
 },
 	shellbell: {
 		name: "Shell Bell",
@@ -42,7 +41,6 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 			this.heal(move.totalDamage / 4, pokemon);
 		}
 	},
-	num: 253,
-	gen: 3,
+	gen: 6,
 },
 };
