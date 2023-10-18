@@ -13,6 +13,7 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 	},	
 	bigroot: {
 		name: "Big Root",
+		shortDesc: "Holder gains 1.75x HP from draining moves.",
 		spritenum: 29,
 		fling: {
 		basePower: 10,
@@ -21,7 +22,7 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 		onTryHeal(damage, target, source, effect) {
 		const heals = ['drain', 'leechseed', 'ingrain', 'aquaring', 'strengthsap'];
 		if (heals.includes(effect.id)) {
-			return this.chainModify([6964, 4096]);
+			return this.chainModify([7168, 4096]);
 		}
 	},
 	num: 296,
@@ -29,6 +30,7 @@ export const Items: {[itemid: string]: ModdedItemData} = {
 },
 	shellbell: {
 		name: "Shell Bell",
+		shortDesc: "After an attack, holder gains 1/4 of the damage in HP dealt to other Pokemon.",
 		spritenum: 438,
 		fling: {
 		basePower: 30,
