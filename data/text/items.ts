@@ -130,7 +130,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Big Root",
 		desc: "Holder gains 1.3x HP from draining/Aqua Ring/Ingrain/Leech Seed/Strength Sap.",
 		gen6: {
-			desc: "Holder gains 1.3x HP from draining moves, Aqua Ring, Ingrain, and Leech Seed.",
+			desc: "Holder gains 1.75x HP from draining moves, Aqua Ring, Ingrain, and Leech Seed.",
 		},
 	},
 	bindingband: {
