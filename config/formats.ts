@@ -26,75 +26,75 @@ export const Formats: FormatList = [
 		column: 1,
 		// name: "gen9petmods",
 	},
-	{
-		name: "[Gen 6] Mix and Megas Revisited",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3713949/">Megas Revisited on Smogon Forums</a>`,
-			`&bullet; <a href="https://docs.google.com/spreadsheets/d/1wK11cPHnPCmH7JFss6leKW6_-cumn3DuZA-YMzrzF-U/edit?usp=sharing">Spreadsheet</a>`,
-		],
-		mod: 'gen6mixandmegasrevisited',
-		ruleset: ['Standard', 'Swagger Clause', 'Mega Data Mod'],
-		banlist: [
-			'Medichamite', 'Glalitite', 'Altarianite',
-		],
-		restricted: [
-			'Arceus', 'Cresselia', 'Darkrai', 'Deoxys-Attack', 'Deoxys-Normal', 'Deoxys-Speed', 'Dialga', 'Dragonite', 'Genesect',
-			'Giratina', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Lucario', 'Lugia', 'Manaphy', 'Mewtwo',
-			'Palkia', 'Rayquaza', 'Regigigas', 'Reshiram', 'Shaymin-Sky', 'Slaking', 'Xerneas', 'Yveltal', 'Zekrom',		
-		],
-		onValidateTeam(team) {
-			const itemTable = new Set<ID>();
-			for (const set of team) {
-				const item = this.dex.items.get(set.item);
-				if (!item.megaStone && !item.onPrimal &&
-					!item.forcedForme?.endsWith('Origin') && !item.name.startsWith('Rusted')) continue;
-				const natdex = this.ruleTable.has('standardnatdex');
-				if (natdex && item.id !== 'ultranecroziumz') continue;
-				const species = this.dex.species.get(set.species);
-				if (species.isNonstandard && !this.ruleTable.has(`+pokemontag:${this.toID(species.isNonstandard)}`)) {
-					return [`${species.baseSpecies} does not exist in gen 9.`];
-				}
-				if ((item.itemUser?.includes(species.name) && !item.megaStone && !item.onPrimal) ||
-					(natdex && species.name.startsWith('Necrozma-') && item.id === 'ultranecroziumz')) {
-					continue;
-				}
-				if (this.ruleTable.isRestrictedSpecies(species) || this.toID(set.ability) === 'powerconstruct') {
-					return [`${species.name} is not allowed to hold ${item.name}.`];
-				}
-				if (itemTable.has(item.id)) {
-					return [
-						`You are limited to one of each mega stone/orb/rusted item/sinnoh item.`,
-						`(You have more than one ${item.name})`,
-					];
-				}
-				itemTable.add(item.id);
-			}
-		},
-		onBegin() {
-			for (const pokemon of this.getAllPokemon()) {
-				pokemon.m.originalSpecies = pokemon.baseSpecies.name;
-			}
-		},
-		onSwitchIn(pokemon) {
-			// @ts-ignore
-			const originalFormeSecies = this.dex.species.get(pokemon.species.originalSpecies);
-			if (originalFormeSecies.exists && pokemon.m.originalSpecies !== originalFormeSecies.baseSpecies) {
-				// Place volatiles on the Pokémon to show its mega-evolved condition and details
-				this.add('-start', pokemon, originalFormeSecies.requiredItem || originalFormeSecies.requiredMove, '[silent]');
-				const oSpecies = this.dex.species.get(pokemon.m.originalSpecies);
-				if (oSpecies.types.length !== pokemon.species.types.length || oSpecies.types[1] !== pokemon.species.types[1]) {
-					this.add('-start', pokemon, 'typechange', pokemon.species.types.join('/'), '[silent]');
-				}
-			}
-		},
-		onSwitchOut(pokemon) {
-			// @ts-ignore
-			const oMegaSpecies = this.dex.species.get(pokemon.species.originalSpecies);
-			if (oMegaSpecies.exists && pokemon.m.originalSpecies !== oMegaSpecies.baseSpecies) {
-				this.add('-end', pokemon, oMegaSpecies.requiredItem || oMegaSpecies.requiredMove, '[silent]');
-			}
-		},
-	},
+	// {
+	// 	name: "[Gen 6] Mix and Megas Revisited",
+	// 	threads: [
+	// 		`&bullet; <a href="https://www.smogon.com/forums/threads/3713949/">Megas Revisited on Smogon Forums</a>`,
+	// 		`&bullet; <a href="https://docs.google.com/spreadsheets/d/1wK11cPHnPCmH7JFss6leKW6_-cumn3DuZA-YMzrzF-U/edit?usp=sharing">Spreadsheet</a>`,
+	// 	],
+	// 	mod: 'gen6mixandmegasrevisited',
+	// 	ruleset: ['Standard', 'Swagger Clause', 'Mega Data Mod'],
+	// 	banlist: [
+	// 		'Medichamite', 'Glalitite', 'Altarianite',
+	// 	],
+	// 	restricted: [
+	// 		'Arceus', 'Cresselia', 'Darkrai', 'Deoxys-Attack', 'Deoxys-Normal', 'Deoxys-Speed', 'Dialga', 'Dragonite', 'Genesect',
+	// 		'Giratina', 'Groudon', 'Ho-Oh', 'Kyogre', 'Kyurem-Black', 'Kyurem-White', 'Lucario', 'Lugia', 'Manaphy', 'Mewtwo',
+	// 		'Palkia', 'Rayquaza', 'Regigigas', 'Reshiram', 'Shaymin-Sky', 'Slaking', 'Xerneas', 'Yveltal', 'Zekrom',		
+	// 	],
+	// 	onValidateTeam(team) {
+	// 		const itemTable = new Set<ID>();
+	// 		for (const set of team) {
+	// 			const item = this.dex.items.get(set.item);
+	// 			if (!item.megaStone && !item.onPrimal &&
+	// 				!item.forcedForme?.endsWith('Origin') && !item.name.startsWith('Rusted')) continue;
+	// 			const natdex = this.ruleTable.has('standardnatdex');
+	// 			if (natdex && item.id !== 'ultranecroziumz') continue;
+	// 			const species = this.dex.species.get(set.species);
+	// 			if (species.isNonstandard && !this.ruleTable.has(`+pokemontag:${this.toID(species.isNonstandard)}`)) {
+	// 				return [`${species.baseSpecies} does not exist in gen 9.`];
+	// 			}
+	// 			if ((item.itemUser?.includes(species.name) && !item.megaStone && !item.onPrimal) ||
+	// 				(natdex && species.name.startsWith('Necrozma-') && item.id === 'ultranecroziumz')) {
+	// 				continue;
+	// 			}
+	// 			if (this.ruleTable.isRestrictedSpecies(species) || this.toID(set.ability) === 'powerconstruct') {
+	// 				return [`${species.name} is not allowed to hold ${item.name}.`];
+	// 			}
+	// 			if (itemTable.has(item.id)) {
+	// 				return [
+	// 					`You are limited to one of each mega stone/orb/rusted item/sinnoh item.`,
+	// 					`(You have more than one ${item.name})`,
+	// 				];
+	// 			}
+	// 			itemTable.add(item.id);
+	// 		}
+	// 	},
+	// 	onBegin() {
+	// 		for (const pokemon of this.getAllPokemon()) {
+	// 			pokemon.m.originalSpecies = pokemon.baseSpecies.name;
+	// 		}
+	// 	},
+	// 	onSwitchIn(pokemon) {
+	// 		// @ts-ignore
+	// 		const originalFormeSecies = this.dex.species.get(pokemon.species.originalSpecies);
+	// 		if (originalFormeSecies.exists && pokemon.m.originalSpecies !== originalFormeSecies.baseSpecies) {
+	// 			// Place volatiles on the Pokémon to show its mega-evolved condition and details
+	// 			this.add('-start', pokemon, originalFormeSecies.requiredItem || originalFormeSecies.requiredMove, '[silent]');
+	// 			const oSpecies = this.dex.species.get(pokemon.m.originalSpecies);
+	// 			if (oSpecies.types.length !== pokemon.species.types.length || oSpecies.types[1] !== pokemon.species.types[1]) {
+	// 				this.add('-start', pokemon, 'typechange', pokemon.species.types.join('/'), '[silent]');
+	// 			}
+	// 		}
+	// 	},
+	// 	onSwitchOut(pokemon) {
+	// 		// @ts-ignore
+	// 		const oMegaSpecies = this.dex.species.get(pokemon.species.originalSpecies);
+	// 		if (oMegaSpecies.exists && pokemon.m.originalSpecies !== oMegaSpecies.baseSpecies) {
+	// 			this.add('-end', pokemon, oMegaSpecies.requiredItem || oMegaSpecies.requiredMove, '[silent]');
+	// 		}
+	// 	},
+	// },
 	{
 		name: "[Gen 6] AX Doubles",
 		mod: 'gen6axdoubles',
@@ -780,17 +780,17 @@ export const Formats: FormatList = [
 	// 	},
 	// 	mod: 'm4akalos',
 	// },
-	{
-		name: "[Gen 6] Megas Revisited",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3713949/">Megas Revisited on Smogon Forums</a>`,
-			`&bullet; <a href="https://docs.google.com/spreadsheets/d/1wK11cPHnPCmH7JFss6leKW6_-cumn3DuZA-YMzrzF-U/edit?usp=sharing">Spreadsheet</a>`,
-		],
-		mod: 'gen6megasrevisited',
-		ruleset: ['Standard', 'Swagger Clause', 'Mega Data Mod'],
-		banlist: ['Uber', 'Arena Trap', 'Shadow Tag', 'Soul Dew', 'Baton Pass', 'Blaziken + Speed Boost'],
-	},
 	// {
+	// 	name: "[Gen 6] Megas Revisited",
+	// 	threads: [
+	// 		`&bullet; <a href="https://www.smogon.com/forums/threads/3713949/">Megas Revisited on Smogon Forums</a>`,
+	// 		`&bullet; <a href="https://docs.google.com/spreadsheets/d/1wK11cPHnPCmH7JFss6leKW6_-cumn3DuZA-YMzrzF-U/edit?usp=sharing">Spreadsheet</a>`,
+	// 	],
+	// 	mod: 'gen6megasrevisited',
+	// 	ruleset: ['Standard', 'Swagger Clause', 'Mega Data Mod'],
+	// 	banlist: ['Uber', 'Arena Trap', 'Shadow Tag', 'Soul Dew', 'Baton Pass', 'Blaziken + Speed Boost'],
+	// },
+	// // {
 	// 	name: "[Gen 9] MetaMons",
 	// 	desc: [
 	// 		"In this Pet Mod, we will aim to create a decently-sized micrometa that will expand in the unique niches of some Pokémon, giving them the spotlight after all the time they have been waiting.",
@@ -1803,60 +1803,60 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////
 	//////////////////////// Solomods /////////////////////////////
 	///////////////////////////////////////////////////////////////
-	{
-		section: "Solomods",
-		column: 4,
-	},
-	{
-		name: "[Gen 9] A Golden Experience",
-		desc: `A fun metagame where we try to make everything viable, or at least usable. We also have new Fakemons!`,
-		threads: [
-			`&bullet; <a href="https://docs.google.com/spreadsheets/d/1YJXE8wUNJijWSfNKIUqgObN5uEVgTliewTluGe0w4Y4/edit?usp=sharing">Spreadsheet for the mod</a>`,
-		],
-		mod: 'agoldenexperience',
-		ruleset: ['Standard NatDex', 'Terastal Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Sleep Clause Mod', 'Data Mod', 'Mega Data Mod'],
-		banlist: ['Uber', 'Power Construct', 'Berserk Gene', 'Eevee-Starter', 'Pikachu-Starter', 'Moody',
-					'Normalium Z', 'Fairium Z', 'Fightinium Z', 'Firium Z', 'Flyinium Z', 'Darkinium Z', 'Dragonium Z', 'Buginium Z', 'Waterium Z', 'Electrium Z', 'Ghostium Z', 'Grassium Z', 'Groundium Z', 'Icium Z', 'Poisonium Z', 'Psychium Z', 'Rockium Z', 'Steelium Z', 'Pikanium Z', 'Aloraichium Z', 'Eevium Z', 'Snorlium Z', 'Mewnium Z', 'Ultranecrozium Z', 'Pikashunium Z', 'Decidium Z', 'Incinium Z', 'Primarium Z', 'Lycanium Z', 'Mimikium Z', 'Kommonium Z', 'Tapunium Z', 'Solganium Z', 'Lunalium Z', 'Marshadium Z', 
-					'Bright Powder', 'Lax Incense', 'King\'s Rock', 'Razor Fang',
-				'Rusted Sword', 'Rusted Shield'],
-		teambuilderFormat: 'National Dex',
-		onChangeSet(set) {
-			const item = this.toID(set.item);
-			if (set.species === 'Zacian' || set.species === 'Zacian-Crowned') {
-				if (item === 'rustedsword') {
-					set.species = 'Zacian-Crowned';
-					set.ability = 'Intrepid Sword';
-					let ironHead = set.moves.indexOf('ironhead');
-					if (ironHead >= 0) {
-						set.moves[ironHead] = 'behemothblade';
-					}
-				} else {
-					set.species = 'Zacian';
-				}
-			}
-			else if (set.species === 'Zamazenta' || set.species === 'Zamazenta-Crowned') {
-				if (item === 'rustedshield') {
-					set.species = 'Zamazenta-Crowned';
-					set.ability = 'Dauntless Shield';
-					let ironHead = set.moves.indexOf('ironhead');
-					if (ironHead >= 0) {
-						set.moves[ironHead] = 'behemothbash';
-					}
-				} else {
-					set.species = 'Zamazenta';
-				}
-			}
-		},
-		onValidateTeam(team, format){
-			/**@type {{[k: string]: true}} */
-			for (const set of team) {
-				if (set.species == 'Zacian-Crowned' && set.ability !== 'Intrepid Sword')
-					 return ["Zacian-Crowned can only have Intrepid Sword as its ability."]
-				if ((set.species !== 'Zacian-Crowned' && set.species !== 'Zacian') && set.ability === 'Intrepid Sword')
-					 return ["Only Zacian-Crowned can have Intrepid Sword as its ability."]
-			}
-		},
-	},
+	// {
+	// 	section: "Solomods",
+	// 	column: 4,
+	// },
+	// {
+	// 	name: "[Gen 9] A Golden Experience",
+	// 	desc: `A fun metagame where we try to make everything viable, or at least usable. We also have new Fakemons!`,
+	// 	threads: [
+	// 		`&bullet; <a href="https://docs.google.com/spreadsheets/d/1YJXE8wUNJijWSfNKIUqgObN5uEVgTliewTluGe0w4Y4/edit?usp=sharing">Spreadsheet for the mod</a>`,
+	// 	],
+	// 	mod: 'agoldenexperience',
+	// 	ruleset: ['Standard NatDex', 'Terastal Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Species Clause', 'Dynamax Clause', 'Sleep Clause Mod', 'Data Mod', 'Mega Data Mod'],
+	// 	banlist: ['Uber', 'Power Construct', 'Berserk Gene', 'Eevee-Starter', 'Pikachu-Starter', 'Moody',
+	// 				'Normalium Z', 'Fairium Z', 'Fightinium Z', 'Firium Z', 'Flyinium Z', 'Darkinium Z', 'Dragonium Z', 'Buginium Z', 'Waterium Z', 'Electrium Z', 'Ghostium Z', 'Grassium Z', 'Groundium Z', 'Icium Z', 'Poisonium Z', 'Psychium Z', 'Rockium Z', 'Steelium Z', 'Pikanium Z', 'Aloraichium Z', 'Eevium Z', 'Snorlium Z', 'Mewnium Z', 'Ultranecrozium Z', 'Pikashunium Z', 'Decidium Z', 'Incinium Z', 'Primarium Z', 'Lycanium Z', 'Mimikium Z', 'Kommonium Z', 'Tapunium Z', 'Solganium Z', 'Lunalium Z', 'Marshadium Z', 
+	// 				'Bright Powder', 'Lax Incense', 'King\'s Rock', 'Razor Fang',
+	// 			'Rusted Sword', 'Rusted Shield'],
+	// 	teambuilderFormat: 'National Dex',
+	// 	onChangeSet(set) {
+	// 		const item = this.toID(set.item);
+	// 		if (set.species === 'Zacian' || set.species === 'Zacian-Crowned') {
+	// 			if (item === 'rustedsword') {
+	// 				set.species = 'Zacian-Crowned';
+	// 				set.ability = 'Intrepid Sword';
+	// 				let ironHead = set.moves.indexOf('ironhead');
+	// 				if (ironHead >= 0) {
+	// 					set.moves[ironHead] = 'behemothblade';
+	// 				}
+	// 			} else {
+	// 				set.species = 'Zacian';
+	// 			}
+	// 		}
+	// 		else if (set.species === 'Zamazenta' || set.species === 'Zamazenta-Crowned') {
+	// 			if (item === 'rustedshield') {
+	// 				set.species = 'Zamazenta-Crowned';
+	// 				set.ability = 'Dauntless Shield';
+	// 				let ironHead = set.moves.indexOf('ironhead');
+	// 				if (ironHead >= 0) {
+	// 					set.moves[ironHead] = 'behemothbash';
+	// 				}
+	// 			} else {
+	// 				set.species = 'Zamazenta';
+	// 			}
+	// 		}
+	// 	},
+	// 	onValidateTeam(team, format){
+	// 		/**@type {{[k: string]: true}} */
+	// 		for (const set of team) {
+	// 			if (set.species == 'Zacian-Crowned' && set.ability !== 'Intrepid Sword')
+	// 				 return ["Zacian-Crowned can only have Intrepid Sword as its ability."]
+	// 			if ((set.species !== 'Zacian-Crowned' && set.species !== 'Zacian') && set.ability === 'Intrepid Sword')
+	// 				 return ["Only Zacian-Crowned can have Intrepid Sword as its ability."]
+	// 		}
+	// 	},
+	// },
 	// {
 	// 	name: "[Gen 9] A Golden Experience Ubers",
 	// 	desc: `A fun metagame where we try to make everything viable, or at least usable. We also have new Fakemons!`,
